@@ -1,0 +1,11 @@
+name: Fork-Pipeline
+
+on: [push]
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Hallo Welt
+        run: echo "Pipeline läuft für meinen Fork!"
