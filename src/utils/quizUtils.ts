@@ -30,7 +30,7 @@ export const shuffleAnswers = (question: Question): ShuffledQuestion => {
 
 export const loadQuestions = async (): Promise<Question[]> => {
   try {
-    const response = await fetch('/questions.json');
+    const response = await fetch(process.env.PUBLIC_URL + '/questions.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
