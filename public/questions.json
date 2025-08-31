@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "question": "Welche psychische Erkrankung ist durch anhaltende Traurigkeit und Interessenverlust gekennzeichnet?",
+    "answers": ["Depression", "Schizophrenie", "ADHS", "Phobie"],
+    "correctIndex": 0,
+    "explanation": "Depression ist eine häufige psychische Erkrankung, die durch gedrückte Stimmung, Antriebslosigkeit und Interessenverlust gekennzeichnet ist."
+  },
+  {
+    "id": "2",
+    "question": "Welche Störung ist durch übermäßige Angst und Sorgen über alltägliche Dinge gekennzeichnet?",
+    "answers": ["Zwangsstörung", "Generalisierte Angststörung", "Bipolare Störung", "Borderline-Störung"],
+    "correctIndex": 1,
+    "explanation": "Die Generalisierte Angststörung äußert sich in ständigen Sorgen und Anspannungen, oft ohne konkrete Ursache."
+  },
+  {
+    "id": "3",
+    "question": "Welche Erkrankung ist durch abwechselnde Phasen von Manie und Depression gekennzeichnet?",
+    "answers": ["Borderline-Störung", "Bipolare Störung", "Zwangsstörung", "Schizophrenie"],
+    "correctIndex": 1,
+    "explanation": "Die Bipolare Störung umfasst depressive Phasen sowie manische Episoden mit überhöhter Stimmung und Aktivität."
+  },
+  {
+    "id": "4",
+    "question": "Was sind typische Symptome einer Panikattacke?",
+    "answers": ["Herzrasen, Atemnot, Schwindel", "Freude, Energie, Euphorie", "Gedächtnisverlust, Orientierungslosigkeit", "Zwangsgedanken und Rituale"],
+    "correctIndex": 0,
+    "explanation": "Panikattacken äußern sich oft körperlich durch Herzrasen, Atemnot, Schwindel und das Gefühl von Kontrollverlust."
+  },
+  {
+    "id": "5",
+    "question": "Welche psychische Erkrankung ist durch Wahnvorstellungen und Halluzinationen gekennzeichnet?",
+    "answers": ["Schizophrenie", "Depression", "Phobie", "Burnout"],
+    "correctIndex": 0,
+    "explanation": "Schizophrenie ist eine schwere psychische Erkrankung, die mit Halluzinationen, Wahnvorstellungen und Realitätsverlust einhergeht."
+  },
+  {
+    "id": "6",
+    "question": "Welche Störung wird oft durch wiederholte, unerwünschte Gedanken und zwanghafte Handlungen beschrieben?",
+    "answers": ["Borderline-Störung", "Zwangsstörung", "Posttraumatische Belastungsstörung", "Essstörung"],
+    "correctIndex": 1,
+    "explanation": "Zwangsstörungen beinhalten zwanghafte Gedanken (z. B. Angst vor Schmutz) und Handlungen (z. B. ständiges Händewaschen)."
+  },
+  {
+    "id": "7",
+    "question": "Was bedeutet die Abkürzung 'PTBS'?",
+    "answers": ["Posttraumatische Belastungsstörung", "Psychologische Therapie bei Stress", "Primäre Traumatische Belastungssymptome", "Persönlichkeits- und Traumastörung"],
+    "correctIndex": 0,
+    "explanation": "PTBS steht für Posttraumatische Belastungsstörung, die nach extrem belastenden Erlebnissen auftreten kann."
+  },
+  {
+    "id": "8",
+    "question": "Welche Essstörung ist durch absichtliches Hungern und starkes Untergewicht gekennzeichnet?",
+    "answers": ["Bulimie", "Anorexia nervosa", "Binge-Eating-Störung", "Adipositas"],
+    "correctIndex": 1,
+    "explanation": "Anorexia nervosa (Magersucht) ist durch Nahrungsverweigerung, Untergewicht und oft Körperschemastörungen gekennzeichnet."
+  },
+  {
+    "id": "9",
+    "question": "Welche Erkrankung zeigt sich oft schon im Kindesalter durch Unaufmerksamkeit und Hyperaktivität?",
+    "answers": ["Autismus", "ADHS", "Borderline-Störung", "Schizophrenie"],
+    "correctIndex": 1,
+    "explanation": "ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung) zeigt sich durch Konzentrationsprobleme, Impulsivität und Bewegungsdrang."
+  },
+  {
+    "id": "10",
+    "question": "Welche Störung ist durch extreme Stimmungsschwankungen und instabile Beziehungen gekennzeichnet?",
+    "answers": ["Zwangsstörung", "Borderline-Störung", "Depression", "Phobie"],
+    "correctIndex": 1,
+    "explanation": "Die Borderline-Persönlichkeitsstörung ist durch instabile Emotionen, impulsives Verhalten und instabile Beziehungen geprägt."
+  },
+  {
+    "id": "11",
+    "question": "Welche Therapieform ist eine häufige Behandlungsmethode bei psychischen Erkrankungen?",
+    "answers": ["Chemotherapie", "Kognitive Verhaltenstherapie", "Physiotherapie", "Chirurgie"],
+    "correctIndex": 1,
+    "explanation": "Die Kognitive Verhaltenstherapie ist eine weit verbreitete psychotherapeutische Methode zur Behandlung von psychischen Erkrankungen."
+  },
+  {
+    "id": "12",
+    "question": "Welche Substanzgruppe wird häufig als Antidepressiva eingesetzt?",
+    "answers": ["Beta-Blocker", "Selektive Serotonin-Wiederaufnahmehemmer (SSRIs)", "Antihistaminika", "Schmerzmittel"],
+    "correctIndex": 1,
+    "explanation": "SSRIs wie Fluoxetin oder Sertralin sind gängige Antidepressiva, die den Serotoninspiegel im Gehirn beeinflussen."
+  },
+  {
+    "id": "13",
+    "question": "Welche Erkrankung wird oft mit Albträumen und Flashbacks nach einem Trauma verbunden?",
+    "answers": ["PTBS", "ADHS", "Schizophrenie", "Depression"],
+    "correctIndex": 0,
+    "explanation": "Posttraumatische Belastungsstörung (PTBS) tritt nach belastenden Erlebnissen auf und äußert sich durch Flashbacks und Albträume."
+  },
+  {
+    "id": "14",
+    "question": "Welche Störung ist durch übermäßige Angst vor bestimmten Situationen oder Objekten gekennzeichnet?",
+    "answers": ["Depression", "Phobie", "ADHS", "Borderline-Störung"],
+    "correctIndex": 1,
+    "explanation": "Phobien sind übersteigerte Ängste, z. B. vor Höhen, Tieren oder engen Räumen."
+  },
+  {
+    "id": "15",
+    "question": "Wie nennt man die Behandlung mit Medikamenten bei psychischen Erkrankungen?",
+    "answers": ["Psychotherapie", "Physiotherapie", "Pharmakotherapie", "Homöopathie"],
+    "correctIndex": 2,
+    "explanation": "Pharmakotherapie beschreibt die Behandlung mit Medikamenten, etwa Antidepressiva oder Neuroleptika."
+  },
+  {
+    "id": "16",
+    "question": "Welche Erkrankung ist gekennzeichnet durch Essanfälle ohne anschließendes Erbrechen?",
+    "answers": ["Bulimie", "Anorexia nervosa", "Binge-Eating-Störung", "Orthorexie"],
+    "correctIndex": 2,
+    "explanation": "Die Binge-Eating-Störung ist durch wiederholte Essanfälle gekennzeichnet, ohne dass kompensatorische Maßnahmen wie Erbrechen erfolgen."
+  },
+  {
+    "id": "17",
+    "question": "Welche Persönlichkeitsstörung ist durch starkes Bedürfnis nach Bewunderung und geringe Empathie geprägt?",
+    "answers": ["Narzisstische Persönlichkeitsstörung", "Borderline-Störung", "Depressive Störung", "Zwangsstörung"],
+    "correctIndex": 0,
+    "explanation": "Die narzisstische Persönlichkeitsstörung ist durch ein überhöhtes Selbstbild, Bedürfnis nach Anerkennung und Mangel an Empathie gekennzeichnet."
+  },
+  {
+    "id": "18",
+    "question": "Welche psychische Erkrankung tritt häufig als 'Burnout' auf?",
+    "answers": ["Überlastungsdepression", "Phobie", "Bipolare Störung", "Schizophrenie"],
+    "correctIndex": 0,
+    "explanation": "Burnout ist keine eigenständige Diagnose, sondern beschreibt meist eine stressbedingte Überlastungsdepression."
+  },
+  {
+    "id": "19",
+    "question": "Welche Therapiemethode nutzt Gespräche zur Bearbeitung psychischer Probleme?",
+    "answers": ["Psychotherapie", "Physiotherapie", "Radiotherapie", "Chirurgie"],
+    "correctIndex": 0,
+    "explanation": "Psychotherapie nutzt das Gespräch zwischen Patient und Therapeut zur Bearbeitung von Gedanken, Gefühlen und Verhaltensmustern."
+  },
+  {
+    "id": "20",
+    "question": "Welche Störung ist durch Konzentrationsprobleme und Gedächtnisverlust im Alter gekennzeichnet?",
+    "answers": ["Depression", "Alzheimer-Krankheit", "PTBS", "Bulimie"],
+    "correctIndex": 1,
+    "explanation": "Die Alzheimer-Krankheit ist eine Form der Demenz, die mit Gedächtnisverlust, Orientierungsproblemen und kognitivem Abbau einhergeht."
+  }
+]

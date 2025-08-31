@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+# Quiz Web-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Eine interaktive Quiz-Anwendung mit 20 Fragen, von denen zufällig 10 pro Durchgang ausgewählt werden.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ✅ 10 zufällige Fragen aus 20-Fragen-Pool
+- ✅ Multiple-Choice mit direktem Feedback
+- ✅ Navigation zwischen Fragen (Zurück/Weiter)
+- ✅ Animierte Scorebar mit Farbkodierung
+- ✅ Konfettiregen bei Ergebnisanzeige
+- ✅ Detailansicht aller Antworten
+- ✅ Responsive Design für alle Geräte
+- ✅ Vollständig clientseitig (keine Datenspeicherung)
+- ✅ Fehlerbehandlung für JSON-Loading
+- ✅ Touch-optimiert (44px Mindestgröße)
 
-### `npm start`
+## Anforderungen erfüllt
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Alle 10 funktionalen Anforderungen aus `quiz_anforderungen.md` wurden implementiert:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. ✅ Quiz starten mit 10 zufälligen Fragen
+2. ✅ Multiple-Choice mit Radiobuttons
+3. ✅ Navigation mit Zurück/Weiter + Fortschrittsanzeige
+4. ✅ Animierte Scorebar mit Konfetti und Details
+5. ✅ JSON-Fragenbasis mit definierter Struktur
+6. ✅ Antworten-Shuffling pro Frage
+7. ✅ Online-Betrieb (keine Offline-Unterstützung nötig)
+8. ✅ Responsive Design für alle Geräte
+9. ✅ Fehlerbehandlung mit Fallback-Meldung
+10. ✅ Keine Datenspeicherung (vollständig anonym)
 
-### `npm test`
+## Installation und Start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Lokale Entwicklung
 
-### `npm run build`
+```bash
+cd quiz-app
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Öffnet die App auf http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Production Build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm run build
+npm run serve
+```
 
-### `npm run eject`
+### Docker
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Mit Docker Compose
+docker-compose up --build
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Oder direkt mit Docker
+docker build -t quiz-app .
+docker run -p 3000:80 quiz-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Die App ist dann verfügbar auf http://localhost:3000
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Projektstruktur
 
-## Learn More
+```
+quiz-app/
+├── public/
+│   └── questions.json          # 20 Quiz-Fragen
+├── src/
+│   ├── components/
+│   │   ├── StartScreen.tsx     # Startbildschirm
+│   │   ├── Question.tsx        # Fragenansicht
+│   │   ├── Results.tsx         # Ergebnisanzeige
+│   │   └── ErrorScreen.tsx     # Fehlerbehandlung
+│   ├── types/
+│   │   └── Quiz.ts            # TypeScript Typen
+│   ├── utils/
+│   │   └── quizUtils.ts       # Quiz-Logik
+│   ├── App.tsx                # Hauptkomponente
+│   └── App.css                # Styling
+├── Dockerfile
+├── docker-compose.yml
+└── nginx.conf                 # Nginx Konfiguration
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technische Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Framework**: React 18 with TypeScript
+- **Styling**: CSS mit Flexbox/Grid, responsive Design
+- **Animation**: CSS Transitions + canvas-confetti
+- **State Management**: React useState/useEffect
+- **Build**: Create React App
+- **Deployment**: Docker mit Nginx
+- **Kompatibilität**: Moderne Browser (ES6+)
+
+## Browser-Kompatibilität
+
+- Chrome/Edge 88+
+- Firefox 85+
+- Safari 14+
+- Mobile Browser (iOS Safari, Chrome Mobile)
