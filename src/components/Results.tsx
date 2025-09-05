@@ -45,7 +45,7 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
       
       <div className="score-section">
         <div className="score-text">
-          {result.correctAnswers}/{result.totalQuestions} Punkte ({result.percentage}%)
+          {result.correctAnswers}/{result.totalQuestions} Punkte
         </div>
         
         <div className="score-bar">
@@ -92,6 +92,9 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
                   )}
                   <div className="explanation-detail">
                     {question.explanation}
+                  </div>
+                  <div className="info-link">
+                    Hier kannst Du mehr darüber erfahren: <a href="#" target="_blank" rel="noopener noreferrer">[Link einfügen]</a>
                   </div>
                 </div>
               </div>

@@ -33,17 +33,17 @@ const Question: React.FC<QuestionProps> = ({
   };
 
   const getAnswerClassName = (index: number) => {
-    if (!isAnswered) return 'answer-option';
+    if (!isAnswered) return 'yes-no-button';
     
     if (index === selectedAnswer) {
-      return isCorrect ? 'answer-option correct' : 'answer-option incorrect';
+      return isCorrect ? 'yes-no-button correct' : 'yes-no-button incorrect';
     }
     
     if (index === question.correctShuffledIndex && !isCorrect) {
-      return 'answer-option correct-answer';
+      return 'yes-no-button correct-answer';
     }
     
-    return 'answer-option disabled';
+    return 'yes-no-button disabled';
   };
 
   return (
@@ -54,29 +54,27 @@ const Question: React.FC<QuestionProps> = ({
       
       <h2>{question.question}</h2>
       
-      <div className="answers">
-        {question.shuffledAnswers.map((answer, index) => (
-          <label 
-            key={index} 
-            className={getAnswerClassName(index)}
-          >
-            <input
-              type="radio"
-              name="answer"
-              value={index}
-              checked={selectedAnswer === index}
-              onChange={() => handleAnswerSelect(index)}
-              disabled={isAnswered}
-            />
-            <span className="answer-text">{answer}</span>
-          </label>
-        ))}
+      <div className="yes-no-buttons">
+        <button 
+          className={getAnswerClassName(0)}
+          onClick={() => handleAnswerSelect(0)}
+          disabled={isAnswered}
+        >
+          Ja
+        </button>
+        <button 
+          className={getAnswerClassName(1)}
+          onClick={() => handleAnswerSelect(1)}
+          disabled={isAnswered}
+        >
+          Nein
+        </button>
       </div>
       
       {isAnswered && !isCorrect && (
         <div className="correct-answer-info">
           <div className="correct-answer-text">
-            Richtige Antwort: {question.shuffledAnswers[question.correctShuffledIndex]}
+            Richtige Antwort: {question.answers[question.correctShuffledIndex]}
           </div>
           <div className="explanation">
             {question.explanation}

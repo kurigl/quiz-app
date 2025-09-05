@@ -7,7 +7,7 @@ interface StartScreenProps {
 const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
   return (
     <div className="start-screen">
-      <h1>Quiz starten</h1>
+      <h1>Kids in Mind präsentiert:</h1>
       <p>Teste dein Wissen mit 10 zufälligen Fragen!</p>
       <button className="start-button" onClick={onStart}>
         Quiz starten

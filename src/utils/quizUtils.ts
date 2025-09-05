@@ -15,16 +15,11 @@ export const selectRandomQuestions = (questions: Question[], count: number = 10)
 };
 
 export const shuffleAnswers = (question: Question): ShuffledQuestion => {
-  const originalAnswers = [...question.answers];
-  const shuffledAnswers = shuffleArray(originalAnswers);
-  
-  const correctAnswer = originalAnswers[question.correctIndex];
-  const correctShuffledIndex = shuffledAnswers.indexOf(correctAnswer);
-  
+  // For Ja/Nein questions, no shuffling needed
   return {
     ...question,
-    shuffledAnswers,
-    correctShuffledIndex
+    shuffledAnswers: question.answers,
+    correctShuffledIndex: question.correctIndex
   };
 };
 
@@ -42,9 +37,11 @@ export const loadQuestions = async (): Promise<Question[]> => {
     }
     
     for (const question of questions) {
+      console.log('Validating question:', question);
       if (!question.id || !question.question || !Array.isArray(question.answers) || 
-          question.answers.length !== 4 || typeof question.correctIndex !== 'number' ||
-          question.correctIndex < 0 || question.correctIndex > 3 || !question.explanation) {
+          question.answers.length !== 2 || typeof question.correctIndex !== 'number' ||
+          question.correctIndex < 0 || question.correctIndex > 1 || !question.explanation) {
+        console.error('Invalid question:', question);
         throw new Error('Invalid question structure');
       }
     }

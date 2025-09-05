@@ -1,142 +1,142 @@
 [
   {
     "id": "1",
-    "question": "Welche psychische Erkrankung ist durch anhaltende Traurigkeit und Interessenverlust gekennzeichnet?",
-    "answers": ["Depression", "Schizophrenie", "ADHS", "Phobie"],
+    "question": "Haben psychische Gesundheit und psychische Erkrankung beide mit dem Gehirn zu tun?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 0,
-    "explanation": "Depression ist eine häufige psychische Erkrankung, die durch gedrückte Stimmung, Antriebslosigkeit und Interessenverlust gekennzeichnet ist."
+    "explanation": "Sowohl psychische Gesundheit als auch psychische Erkrankungen hängen eng mit den Funktionen und Prozessen im Gehirn zusammen."
   },
   {
     "id": "2",
-    "question": "Welche Störung ist durch übermäßige Angst und Sorgen über alltägliche Dinge gekennzeichnet?",
-    "answers": ["Zwangsstörung", "Generalisierte Angststörung", "Bipolare Störung", "Borderline-Störung"],
-    "correctIndex": 1,
-    "explanation": "Die Generalisierte Angststörung äußert sich in ständigen Sorgen und Anspannungen, oft ohne konkrete Ursache."
+    "question": "Können Menschen mit einer psychischen Erkrankung trotzdem Phasen psychischer Gesundheit erleben?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Auch Menschen mit psychischen Erkrankungen können Zeiten erleben, in denen sie sich psychisch gesund fühlen."
   },
   {
     "id": "3",
-    "question": "Welche Erkrankung ist durch abwechselnde Phasen von Manie und Depression gekennzeichnet?",
-    "answers": ["Borderline-Störung", "Bipolare Störung", "Zwangsstörung", "Schizophrenie"],
-    "correctIndex": 1,
-    "explanation": "Die Bipolare Störung umfasst depressive Phasen sowie manische Episoden mit überhöhter Stimmung und Aktivität."
+    "question": "Kann schwerer und wiederkehrender Stress das Gehirn beeinflussen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Chronischer Stress kann die Gehirnfunktion beeinträchtigen und zu psychischen Erkrankungen beitragen."
   },
   {
     "id": "4",
-    "question": "Was sind typische Symptome einer Panikattacke?",
-    "answers": ["Herzrasen, Atemnot, Schwindel", "Freude, Energie, Euphorie", "Gedächtnisverlust, Orientierungslosigkeit", "Zwangsgedanken und Rituale"],
-    "correctIndex": 0,
-    "explanation": "Panikattacken äußern sich oft körperlich durch Herzrasen, Atemnot, Schwindel und das Gefühl von Kontrollverlust."
+    "question": "Bekommen die meisten Menschen nach einem Trauma eine Posttraumatische Belastungsstörung (PTBS)?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Nur ein Teil der Menschen entwickelt nach einem Trauma eine PTBS, viele erholen sich ohne langfristige Folgen."
   },
   {
     "id": "5",
-    "question": "Welche psychische Erkrankung ist durch Wahnvorstellungen und Halluzinationen gekennzeichnet?",
-    "answers": ["Schizophrenie", "Depression", "Phobie", "Burnout"],
+    "question": "Kontrolliert das Gehirn Funktionen wie Herzschlag, Atmung und Bewegung der Finger?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 0,
-    "explanation": "Schizophrenie ist eine schwere psychische Erkrankung, die mit Halluzinationen, Wahnvorstellungen und Realitätsverlust einhergeht."
+    "explanation": "Das Gehirn steuert lebenswichtige Körperfunktionen und Bewegungen über das Nervensystem."
   },
   {
     "id": "6",
-    "question": "Welche Störung wird oft durch wiederholte, unerwünschte Gedanken und zwanghafte Handlungen beschrieben?",
-    "answers": ["Borderline-Störung", "Zwangsstörung", "Posttraumatische Belastungsstörung", "Essstörung"],
-    "correctIndex": 1,
-    "explanation": "Zwangsstörungen beinhalten zwanghafte Gedanken (z. B. Angst vor Schmutz) und Handlungen (z. B. ständiges Händewaschen)."
+    "question": "Können sowohl genetische Faktoren als auch Infektionen das Gehirn krank machen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Sowohl genetische Ursachen als auch Infektionen können zur Entstehung psychischer Erkrankungen beitragen."
   },
   {
     "id": "7",
-    "question": "Was bedeutet die Abkürzung 'PTBS'?",
-    "answers": ["Posttraumatische Belastungsstörung", "Psychologische Therapie bei Stress", "Primäre Traumatische Belastungssymptome", "Persönlichkeits- und Traumastörung"],
-    "correctIndex": 0,
-    "explanation": "PTBS steht für Posttraumatische Belastungsstörung, die nach extrem belastenden Erlebnissen auftreten kann."
+    "question": "Werden Gefühle überwiegend vom Herzen oder vom Gehirn gesteuert?",
+    "answers": ["Vom Herzen", "Vom Gehirn"],
+    "correctIndex": 1,
+    "explanation": "Gefühle entstehen im Gehirn, insbesondere in Bereichen wie dem limbischen System."
   },
   {
     "id": "8",
-    "question": "Welche Essstörung ist durch absichtliches Hungern und starkes Untergewicht gekennzeichnet?",
-    "answers": ["Bulimie", "Anorexia nervosa", "Binge-Eating-Störung", "Adipositas"],
-    "correctIndex": 1,
-    "explanation": "Anorexia nervosa (Magersucht) ist durch Nahrungsverweigerung, Untergewicht und oft Körperschemastörungen gekennzeichnet."
+    "question": "Können Menschen mit psychischen Erkrankungen durch Behandlung gesund werden?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Viele psychische Erkrankungen lassen sich mit Therapie und/oder Medikamenten gut behandeln."
   },
   {
     "id": "9",
-    "question": "Welche Erkrankung zeigt sich oft schon im Kindesalter durch Unaufmerksamkeit und Hyperaktivität?",
-    "answers": ["Autismus", "ADHS", "Borderline-Störung", "Schizophrenie"],
+    "question": "Bedeutet Schizophrenie, dass Betroffene eine gespaltene Persönlichkeit haben?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 1,
-    "explanation": "ADHS (Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung) zeigt sich durch Konzentrationsprobleme, Impulsivität und Bewegungsdrang."
+    "explanation": "Schizophrenie ist keine gespaltene Persönlichkeit, sondern eine Erkrankung mit Halluzinationen und Wahnvorstellungen."
   },
   {
     "id": "10",
-    "question": "Welche Störung ist durch extreme Stimmungsschwankungen und instabile Beziehungen gekennzeichnet?",
-    "answers": ["Zwangsstörung", "Borderline-Störung", "Depression", "Phobie"],
-    "correctIndex": 1,
-    "explanation": "Die Borderline-Persönlichkeitsstörung ist durch instabile Emotionen, impulsives Verhalten und instabile Beziehungen geprägt."
+    "question": "Sind Depression und Bipolare Störung Beispiele für Erkrankungen der Stimmung?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Beide Erkrankungen betreffen die Stimmung und gehören zu den affektiven Störungen."
   },
   {
     "id": "11",
-    "question": "Welche Therapieform ist eine häufige Behandlungsmethode bei psychischen Erkrankungen?",
-    "answers": ["Chemotherapie", "Kognitive Verhaltenstherapie", "Physiotherapie", "Chirurgie"],
+    "question": "Tritt eine Angststörung nur bei realer Gefahr wie einem angreifenden Hund auf?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 1,
-    "explanation": "Die Kognitive Verhaltenstherapie ist eine weit verbreitete psychotherapeutische Methode zur Behandlung von psychischen Erkrankungen."
+    "explanation": "Eine Angststörung ist dadurch gekennzeichnet, dass Angst auch ohne reale Gefahr auftritt."
   },
   {
     "id": "12",
-    "question": "Welche Substanzgruppe wird häufig als Antidepressiva eingesetzt?",
-    "answers": ["Beta-Blocker", "Selektive Serotonin-Wiederaufnahmehemmer (SSRIs)", "Antihistaminika", "Schmerzmittel"],
+    "question": "Sind Panikattacken bei einer Panikstörung ausschließlich Folgen von äußerem Stress?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 1,
-    "explanation": "SSRIs wie Fluoxetin oder Sertralin sind gängige Antidepressiva, die den Serotoninspiegel im Gehirn beeinflussen."
+    "explanation": "Panikattacken treten oft ohne äußeren Auslöser auf und sind nicht nur stressbedingt."
   },
   {
     "id": "13",
-    "question": "Welche Erkrankung wird oft mit Albträumen und Flashbacks nach einem Trauma verbunden?",
-    "answers": ["PTBS", "ADHS", "Schizophrenie", "Depression"],
+    "question": "Fühlen sich Menschen mit sozialer Angststörung oft beobachtet und bewertet?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 0,
-    "explanation": "Posttraumatische Belastungsstörung (PTBS) tritt nach belastenden Erlebnissen auf und äußert sich durch Flashbacks und Albträume."
+    "explanation": "Soziale Angststörungen äußern sich durch starke Angst vor negativer Bewertung durch andere."
   },
   {
     "id": "14",
-    "question": "Welche Störung ist durch übermäßige Angst vor bestimmten Situationen oder Objekten gekennzeichnet?",
-    "answers": ["Depression", "Phobie", "ADHS", "Borderline-Störung"],
-    "correctIndex": 1,
-    "explanation": "Phobien sind übersteigerte Ängste, z. B. vor Höhen, Tieren oder engen Räumen."
+    "question": "Besteht ADHS aus den Komponenten Aufmerksamkeit, Hyperaktivität und Impulsivität?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Die drei Kernsymptome von ADHS sind Unaufmerksamkeit, Hyperaktivität und Impulsivität – nicht Angst."
   },
   {
     "id": "15",
-    "question": "Wie nennt man die Behandlung mit Medikamenten bei psychischen Erkrankungen?",
-    "answers": ["Psychotherapie", "Physiotherapie", "Pharmakotherapie", "Homöopathie"],
-    "correctIndex": 2,
-    "explanation": "Pharmakotherapie beschreibt die Behandlung mit Medikamenten, etwa Antidepressiva oder Neuroleptika."
+    "question": "Sind selbstverletzendes Verhalten und Suizidversuche dasselbe?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Selbstverletzungen sind meist nicht auf Suizid ausgerichtet, sondern dienen der Spannungsregulation."
   },
   {
     "id": "16",
-    "question": "Welche Erkrankung ist gekennzeichnet durch Essanfälle ohne anschließendes Erbrechen?",
-    "answers": ["Bulimie", "Anorexia nervosa", "Binge-Eating-Störung", "Orthorexie"],
-    "correctIndex": 2,
-    "explanation": "Die Binge-Eating-Störung ist durch wiederholte Essanfälle gekennzeichnet, ohne dass kompensatorische Maßnahmen wie Erbrechen erfolgen."
+    "question": "Soll die Behandlung psychischer Störungen sowohl Symptome lindern als auch die Genesung fördern?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Behandlung soll Symptome lindern, Alltagstauglichkeit wiederherstellen und die Genesung fördern."
   },
   {
     "id": "17",
-    "question": "Welche Persönlichkeitsstörung ist durch starkes Bedürfnis nach Bewunderung und geringe Empathie geprägt?",
-    "answers": ["Narzisstische Persönlichkeitsstörung", "Borderline-Störung", "Depressive Störung", "Zwangsstörung"],
+    "question": "Kann eine gesunde Lebensweise die psychische Gesundheit fördern?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 0,
-    "explanation": "Die narzisstische Persönlichkeitsstörung ist durch ein überhöhtes Selbstbild, Bedürfnis nach Anerkennung und Mangel an Empathie gekennzeichnet."
+    "explanation": "Bewegung, gesunde Ernährung und Schlaf stärken die psychische Gesundheit."
   },
   {
     "id": "18",
-    "question": "Welche psychische Erkrankung tritt häufig als 'Burnout' auf?",
-    "answers": ["Überlastungsdepression", "Phobie", "Bipolare Störung", "Schizophrenie"],
-    "correctIndex": 0,
-    "explanation": "Burnout ist keine eigenständige Diagnose, sondern beschreibt meist eine stressbedingte Überlastungsdepression."
+    "question": "Bedeutet es eine Depression zu haben, wenn man ein paar Tage traurig ist?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Eine Depression wird erst diagnostiziert, wenn Symptome länger andauern und das Leben stark beeinträchtigen."
   },
   {
     "id": "19",
-    "question": "Welche Therapiemethode nutzt Gespräche zur Bearbeitung psychischer Probleme?",
-    "answers": ["Psychotherapie", "Physiotherapie", "Radiotherapie", "Chirurgie"],
+    "question": "Können gute soziale Beziehungen und Bewegung die psychische Gesundheit fördern?",
+    "answers": ["Ja", "Nein"],
     "correctIndex": 0,
-    "explanation": "Psychotherapie nutzt das Gespräch zwischen Patient und Therapeut zur Bearbeitung von Gedanken, Gefühlen und Verhaltensmustern."
+    "explanation": "Beide Faktoren tragen wesentlich zu einer stabilen psychischen Gesundheit bei."
   },
   {
     "id": "20",
-    "question": "Welche Störung ist durch Konzentrationsprobleme und Gedächtnisverlust im Alter gekennzeichnet?",
-    "answers": ["Depression", "Alzheimer-Krankheit", "PTBS", "Bulimie"],
-    "correctIndex": 1,
-    "explanation": "Die Alzheimer-Krankheit ist eine Form der Demenz, die mit Gedächtnisverlust, Orientierungsproblemen und kognitivem Abbau einhergeht."
+    "question": "Hängt das Phänomen der Sucht mit Substanzmissbrauch zusammen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Sucht führt oft zu regelmäßigem und unkontrolliertem Substanzmissbrauch."
   }
 ]
