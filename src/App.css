@@ -384,13 +384,10 @@ body {
   border-left: 3px solid #667eea;
 }
 
-.info-link a {
+.info-link .placeholder-link {
   color: #667eea;
   text-decoration: underline;
-}
-
-.info-link a:hover {
-  color: #5a67d8;
+  font-style: italic;
 }
 
 /* Error Screen */
