@@ -519,18 +519,59 @@ body {
   }
 }
 
-/* Mobile Responsive */
-@media (max-width: 480px) {
-  .yes-no-buttons {
-    gap: 20px;
-    flex-direction: row;
-    flex-wrap: nowrap;
+/* Mobile: Buttons unterhalb der Ja/Nein-Buttons platzieren */
+@media (max-width: 600px) {
+  .quiz-container {
+    position: relative;
   }
-  
-  .yes-no-button {
-    width: 120px;
-    height: 80px;
-    font-size: 1.2rem;
+
+  .quiz-container .navigation-buttons {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none !important;
+    
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+    pointer-events: auto;
+    align-items: center;
+    padding: 0;
+  }
+
+  .quiz-container .nav-button {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 25px;
+    font-size: 1.4rem;
+    margin: 0;
+    box-shadow: 0 3px 15px rgba(102, 126, 234, 0.2);
+  }
+
+  .quiz-container .yes-no-buttons {
+    gap: 20px;
+    min-height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+/* Sehr schmale Geräte: Buttons untereinander */
+@media (max-width: 360px) {
+  .quiz-container .navigation-buttons {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .quiz-container .nav-button {
+    width: calc(100% - 40px);
+    max-width: 300px;
   }
 }
 
