@@ -62,11 +62,11 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
 
       <div className="result-actions">
         <button className="details-button" onClick={toggleDetails}>
-          {showDetails ? 'Details ausblenden' : 'Details anzeigen'}
+          {showDetails ? 'Auflösung ausblenden' : 'Auflösung anzeigen'}
         </button>
         
         <button className="restart-button primary" onClick={onRestart}>
-          Nochmal spielen
+          Neue Runde
         </button>
       </div>
 

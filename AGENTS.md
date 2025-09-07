@@ -21,5 +21,6 @@
 - **Imports**: Named imports for types, default imports for components
 - **Naming**: camelCase for variables/functions, PascalCase for components/types
 - **State**: Enum-based state management (QuizState.START/PLAYING/RESULTS/ERROR)
-- **Error Handling**: Try-catch with console.error, fallback to ERROR state
+- **Error Handling**: Try-catch with console.error, git add .
+fallback to ERROR state
 - **Testing**: React Testing Library with Jest, German text matching
