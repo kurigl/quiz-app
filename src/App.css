@@ -34,6 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 /* Start Screen */
@@ -105,6 +106,7 @@ body {
   margin-bottom: 30px;
   padding: 20px 0;
   min-height: 140px;
+  position: relative;
 }
 
 .yes-no-button {
@@ -204,37 +206,60 @@ body {
 }
 
 .navigation-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
-  gap: 12px;
-  margin-top: auto;
-}
-
-.navigation-buttons .nav-button.primary {
-  margin-left: auto;
+  pointer-events: none;
+  padding: 0 15px;
 }
 
 .nav-button {
-  padding: 12px 24px;
-  border: 2px solid #667eea;
-  background: white;
-  color: #667eea;
-  border-radius: 8px;
+  pointer-events: auto;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
   cursor: pointer;
-  font-size: 1rem;
-  transition: all 0.2s;
-  min-height: 44px;
-  min-width: 100px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(102, 126, 234, 0.7);
+  color: white;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 3px 15px rgba(102, 126, 234, 0.2);
 }
 
 .nav-button.primary {
-  background: #667eea;
-  color: white;
+  background: rgba(102, 126, 234, 0.8);
 }
 
-.nav-button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+.nav-button.disabled {
+  background: rgba(102, 126, 234, 0.3);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.nav-button:not(.disabled):hover {
+  background: rgba(102, 126, 234, 0.95);
+  transform: scale(1.1);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+.nav-button:not(.disabled):active {
+  transform: scale(0.9);
+}
+
+.nav-button.disabled:hover {
+  background: rgba(102, 126, 234, 0.3);
+  transform: none;
+  box-shadow: 0 3px 15px rgba(102, 126, 234, 0.2);
 }
 
 /* Results Styles */
@@ -455,12 +480,18 @@ body {
     max-width: 200px;
   }
 
-  .navigation-buttons {
-    flex-direction: column;
+  .nav-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
   }
 
-  .nav-button {
-    width: 100%;
+  .nav-button:first-child {
+    left: 15px;
+  }
+
+  .nav-button.primary {
+    right: 15px;
   }
 }
 

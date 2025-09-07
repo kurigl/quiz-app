@@ -72,7 +72,7 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
 
       {showDetails && (
         <div className="details-section">
-          <h3>Detailauswertung</h3>
+          <h3>Auflösung</h3>
           {result.answers.map((answer, index) => {
             const question = questions[index];
             return (

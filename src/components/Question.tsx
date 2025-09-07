@@ -55,6 +55,23 @@ const Question: React.FC<QuestionProps> = ({
       <h2>{question.question}</h2>
       
       <div className="yes-no-buttons">
+        <div className="navigation-buttons">
+          <button 
+            className={`nav-button ${!canGoBack ? 'disabled' : ''}`} 
+            onClick={onPrevious}
+            disabled={!canGoBack}
+          >
+            ❮
+          </button>
+          <button 
+            className={`nav-button primary ${!isAnswered ? 'disabled' : ''}`} 
+            onClick={onNext}
+            disabled={!isAnswered}
+          >
+            ❯
+          </button>
+        </div>
+        
         <button 
           className={getAnswerClassName(0)}
           onClick={() => handleAnswerSelect(0)}
@@ -89,19 +106,6 @@ const Question: React.FC<QuestionProps> = ({
           </div>
         </div>
       )}
-      
-      <div className="navigation-buttons">
-        {canGoBack && (
-          <button className="nav-button" onClick={onPrevious}>
-            Zurück
-          </button>
-        )}
-        {isAnswered && (
-          <button className="nav-button primary" onClick={onNext}>
-            Weiter
-          </button>
-        )}
-      </div>
     </div>
   );
 };
