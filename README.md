@@ -1,10 +1,10 @@
 # Quiz Web-App
 
-Eine interaktive Quiz-Anwendung mit 20 Fragen, von denen zufällig 10 pro Durchgang ausgewählt werden.
+Eine interaktive Quiz-Anwendung mit 63 Fragen, von denen zufällig 10 pro Durchgang ausgewählt werden.
 
 ## Features
 
-- ✅ 10 zufällige Fragen aus 20-Fragen-Pool
+- ✅ 10 zufällige Fragen aus 63-Fragen-Pool
 - ✅ Multiple-Choice mit direktem Feedback
 - ✅ Navigation zwischen Fragen (Zurück/Weiter)
 - ✅ Animierte Scorebar mit Farbkodierung
@@ -67,7 +67,7 @@ Die App ist dann verfügbar auf http://localhost:3000
 ```
 quiz-app/
 ├── public/
-│   └── questions.json          # 20 Quiz-Fragen
+│   └── questions.json          # 63 Quiz-Fragen
 ├── src/
 │   ├── components/
 │   │   ├── StartScreen.tsx     # Startbildschirm

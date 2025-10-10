@@ -10,8 +10,32 @@ export const shuffleArray = <T>(array: T[]): T[] => {
 };
 
 export const selectRandomQuestions = (questions: Question[], count: number = 10): Question[] => {
-  const shuffled = shuffleArray(questions);
-  return shuffled.slice(0, count);
+  // Group questions by category
+  const questionsByCategory = questions.reduce((acc, question) => {
+    const category = question.category;
+    if (!acc[category]) {
+      acc[category] = [];
+    }
+    acc[category].push(question);
+    return acc;
+  }, {} as Record<string, Question[]>);
+
+  // Get all unique categories
+  const categories = Object.keys(questionsByCategory);
+  
+  // Shuffle and select random categories
+  const shuffledCategories = shuffleArray(categories);
+  const selectedCategories = shuffledCategories.slice(0, count);
+  
+  // Select one random question from each selected category
+  const selectedQuestions: Question[] = [];
+  for (const category of selectedCategories) {
+    const categoryQuestions = questionsByCategory[category];
+    const randomQuestion = categoryQuestions[Math.floor(Math.random() * categoryQuestions.length)];
+    selectedQuestions.push(randomQuestion);
+  }
+  
+  return selectedQuestions;
 };
 
 export const shuffleAnswers = (question: Question): ShuffledQuestion => {
@@ -40,7 +64,8 @@ export const loadQuestions = async (): Promise<Question[]> => {
       console.log('Validating question:', question);
       if (!question.id || !question.question || !Array.isArray(question.answers) || 
           question.answers.length !== 2 || typeof question.correctIndex !== 'number' ||
-          question.correctIndex < 0 || question.correctIndex > 1 || !question.explanation) {
+          question.correctIndex < 0 || question.correctIndex > 1 || !question.explanation ||
+          !question.category) {
         console.error('Invalid question:', question);
         throw new Error('Invalid question structure');
       }

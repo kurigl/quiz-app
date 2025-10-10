@@ -93,9 +93,11 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
                   <div className="explanation-detail">
                     {question.explanation}
                   </div>
-                  <div className="info-link">
-                    Hier kannst Du mehr darüber erfahren: <span className="placeholder-link">[Link einfügen]</span>
-                  </div>
+                  {question.infoLink && (
+                    <div className="info-link">
+                      Hier kannst Du mehr darüber erfahren: <a href={question.infoLink} target="_blank" rel="noopener noreferrer">Mehr erfahren →</a>
+                    </div>
+                  )}
                 </div>
               </div>
             );

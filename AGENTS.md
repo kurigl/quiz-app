@@ -11,7 +11,7 @@
 - **React 18 + TypeScript** single-page application
 - **Components**: StartScreen, Question, Results, ErrorScreen in `/src/components/`
 - **State Management**: React hooks (useState/useEffect) in App.tsx
-- **Data**: questions.json loaded from public folder (20 questions, 10 random selected)
+- **Data**: questions.json loaded from public folder (63 questions, 10 random selected)
 - **Types**: All interfaces defined in `/src/types/Quiz.ts`
 - **Utils**: Quiz logic and question shuffling in `/src/utils/quizUtils.ts`
 

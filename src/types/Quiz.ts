@@ -4,6 +4,8 @@ export interface Question {
   answers: string[];
   correctIndex: number;
   explanation: string;
+  category: string;
+  infoLink?: string;
 }
 
 export interface ShuffledQuestion extends Question {

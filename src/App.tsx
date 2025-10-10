@@ -144,6 +144,9 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
+      <div className="orientation-notice">
+        <span className="notice-text">Für die beste Ansicht bitte Gerät ins Querformat drehen.</span>
+      </div>
       <div className="quiz-container">
         {renderCurrentScreen()}
       </div>

@@ -1,142 +1,695 @@
 [
   {
     "id": "1",
-    "question": "Haben psychische Gesundheit und psychische Erkrankung beide mit dem Gehirn zu tun?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Sowohl psychische Gesundheit als auch psychische Erkrankungen hängen eng mit den Funktionen und Prozessen im Gehirn zusammen."
+    "question": "Ist es falsch, dass Können etwa ein Drittel der Erwachsenen in Deutschland im Laufe ihres Lebens an einer psychischen Erkrankung leiden?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Etwa ein Drittel der Erwachsenen in Deutschland ist irgendwann von einer psychischen Erkrankung betroffen.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "2",
-    "question": "Können Menschen mit einer psychischen Erkrankung trotzdem Phasen psychischer Gesundheit erleben?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Können psychische Erkrankungen jede Person treffen, unabhängig von Alter oder Herkunft?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Auch Menschen mit psychischen Erkrankungen können Zeiten erleben, in denen sie sich psychisch gesund fühlen."
+    "explanation": "Psychische Erkrankungen können alle Menschen betreffen, unabhängig von Alter, Herkunft oder Persönlichkeit.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "3",
-    "question": "Kann schwerer und wiederkehrender Stress das Gehirn beeinflussen?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Chronischer Stress kann die Gehirnfunktion beeinträchtigen und zu psychischen Erkrankungen beitragen."
+    "question": "Ist es falsch, dass Beeinflussen psychische Erkrankungen das Denken, Fühlen und Verhalten eines Menschen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Psychische Erkrankungen betreffen innere Prozesse wie Gefühle, Gedanken und Verhalten – können aber auch körperliche Symptome hervorrufen.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "4",
-    "question": "Bekommen die meisten Menschen nach einem Trauma eine Posttraumatische Belastungsstörung (PTBS)?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 1,
-    "explanation": "Nur ein Teil der Menschen entwickelt nach einem Trauma eine PTBS, viele erholen sich ohne langfristige Folgen."
+    "question": "Trifft es zu, dass Entstehen psychische Erkrankungen durch ein Zusammenspiel biologischer, psychischer und sozialer Faktoren?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Genetische, psychologische und soziale Einflüsse wirken bei der Entstehung zusammen.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "5",
-    "question": "Kontrolliert das Gehirn Funktionen wie Herzschlag, Atmung und Bewegung der Finger?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Das Gehirn steuert lebenswichtige Körperfunktionen und Bewegungen über das Nervensystem."
+    "question": "Ist es falsch, dass Können psychische Erkrankungen gut behandelt werden, zum Beispiel durch Psychotherapie oder Medikamente?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Psychotherapie, Medikamente oder eine Kombination können sehr wirksam sein – je nach Erkrankung.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "6",
-    "question": "Können sowohl genetische Faktoren als auch Infektionen das Gehirn krank machen?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Verzichten viele Betroffene aus Angst vor Stigmatisierung oder Vorurteilen auf professionelle Hilfe?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Sowohl genetische Ursachen als auch Infektionen können zur Entstehung psychischer Erkrankungen beitragen."
+    "explanation": "Vorurteile und Scham führen dazu, dass manche Betroffene Hilfe vermeiden.",
+    "category": "Psychische Erkrankung allgemein"
   },
   {
     "id": "7",
-    "question": "Werden Gefühle überwiegend vom Herzen oder vom Gehirn gesteuert?",
-    "answers": ["Vom Herzen", "Vom Gehirn"],
+    "question": "Ist es falsch, dass Sind wiederkehrende belastende Erinnerungen (z. B. Flashbacks) ein typisches Symptom einer PTBS?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 1,
-    "explanation": "Gefühle entstehen im Gehirn, insbesondere in Bereichen wie dem limbischen System."
+    "explanation": "Menschen mit PTBS erleben häufig Flashbacks oder Albträume des Traumas.",
+    "category": "PTBS"
   },
   {
     "id": "8",
-    "question": "Können Menschen mit psychischen Erkrankungen durch Behandlung gesund werden?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Kann eine Posttraumatische Belastungsstörung (PTBS) durch jede schwere Bedrohung oder traumatische Erfahrung ausgelöst werden?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Viele psychische Erkrankungen lassen sich mit Therapie und/oder Medikamenten gut behandeln."
+    "explanation": "PTBS kann nach Unfällen, Gewalt, Missbrauch, Naturkatastrophen u. v. m. entstehen.",
+    "category": "PTBS"
   },
   {
     "id": "9",
-    "question": "Bedeutet Schizophrenie, dass Betroffene eine gespaltene Persönlichkeit haben?",
-    "answers": ["Ja", "Nein"],
+    "question": "Ist es falsch, dass Vermeiden Menschen mit PTBS oft Situationen oder Orte, die an das Trauma erinnern?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 1,
-    "explanation": "Schizophrenie ist keine gespaltene Persönlichkeit, sondern eine Erkrankung mit Halluzinationen und Wahnvorstellungen."
+    "explanation": "Betroffene versuchen häufig, triggernde Reize und Orte zu vermeiden.",
+    "category": "PTBS"
   },
   {
     "id": "10",
-    "question": "Sind Depression und Bipolare Störung Beispiele für Erkrankungen der Stimmung?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Beide Erkrankungen betreffen die Stimmung und gehören zu den affektiven Störungen."
+    "question": "Ist die folgende Aussage richtig: Sind körperliche Narben ein typisches Symptom einer PTBS?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "PTBS äußert sich vor allem psychisch; sichtbare Narben sind kein Symptom der Störung selbst.",
+    "category": "PTBS"
   },
   {
     "id": "11",
-    "question": "Tritt eine Angststörung nur bei realer Gefahr wie einem angreifenden Hund auf?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 1,
-    "explanation": "Eine Angststörung ist dadurch gekennzeichnet, dass Angst auch ohne reale Gefahr auftritt."
+    "question": "Trifft es zu, dass Gilt trauma-fokussierte Psychotherapie als wirksame Behandlung bei PTBS?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Spezialisierte trauma-fokussierte Verfahren zeigen gute Wirksamkeit; Medikamente können unterstützen.",
+    "category": "PTBS"
   },
   {
     "id": "12",
-    "question": "Sind Panikattacken bei einer Panikstörung ausschließlich Folgen von äußerem Stress?",
-    "answers": ["Ja", "Nein"],
+    "question": "Ist es falsch, dass Beeinflussen psychische Erkrankungen das Denken, Fühlen und Verhalten (auch wenn körperliche Symptome vorkommen können)?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 1,
-    "explanation": "Panikattacken treten oft ohne äußeren Auslöser auf und sind nicht nur stressbedingt."
+    "explanation": "Psychische Erkrankungen äußern sich primär im Erleben und Verhalten, körperliche Symptome können begleitend auftreten.",
+    "category": "Psychische vs. körperliche Erkrankung"
   },
   {
     "id": "13",
-    "question": "Fühlen sich Menschen mit sozialer Angststörung oft beobachtet und bewertet?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Können psychische Erkrankungen auch körperliche Beschwerden verursachen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Soziale Angststörungen äußern sich durch starke Angst vor negativer Bewertung durch andere."
+    "explanation": "Viele psychische Erkrankungen gehen mit Schlafproblemen, Herzrasen oder Schmerzen einher.",
+    "category": "Psychische vs. körperliche Erkrankung"
   },
   {
     "id": "14",
-    "question": "Besteht ADHS aus den Komponenten Aufmerksamkeit, Hyperaktivität und Impulsivität?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Die drei Kernsymptome von ADHS sind Unaufmerksamkeit, Hyperaktivität und Impulsivität – nicht Angst."
+    "question": "Ist es falsch, dass Können psychische und körperliche Erkrankungen sowohl akut als auch chronisch verlaufen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beide Arten können kurzfristig oder dauerhaft auftreten.",
+    "category": "Psychische vs. körperliche Erkrankung"
   },
   {
     "id": "15",
-    "question": "Sind selbstverletzendes Verhalten und Suizidversuche dasselbe?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 1,
-    "explanation": "Selbstverletzungen sind meist nicht auf Suizid ausgerichtet, sondern dienen der Spannungsregulation."
+    "question": "Trifft es zu, dass Werden psychische Erkrankungen oft später erkannt, weil ihre Symptome schwerer messbar sind?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Psychische Symptome sind weniger eindeutig messbar als z. B. Fieber oder Laborwerte.",
+    "category": "Psychische vs. körperliche Erkrankung"
   },
   {
     "id": "16",
-    "question": "Soll die Behandlung psychischer Störungen sowohl Symptome lindern als auch die Genesung fördern?",
-    "answers": ["Ja", "Nein"],
-    "correctIndex": 0,
-    "explanation": "Behandlung soll Symptome lindern, Alltagstauglichkeit wiederherstellen und die Genesung fördern."
+    "question": "Ist es falsch, dass Können sowohl psychische als auch körperliche Erkrankungen erfolgreich behandelt werden?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beide Bedarfe können mit professioneller Hilfe wirksam behandelt werden.",
+    "category": "Psychische vs. körperliche Erkrankung"
   },
   {
     "id": "17",
-    "question": "Kann eine gesunde Lebensweise die psychische Gesundheit fördern?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Fördert Selbstfürsorge das eigene Wohlbefinden und die psychische Gesundheit?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Bewegung, gesunde Ernährung und Schlaf stärken die psychische Gesundheit."
+    "explanation": "Selbstfürsorge bedeutet, aktiv etwas für die eigene körperliche und psychische Gesundheit zu tun.",
+    "category": "Selbstfürsorge"
   },
   {
     "id": "18",
-    "question": "Bedeutet es eine Depression zu haben, wenn man ein paar Tage traurig ist?",
-    "answers": ["Ja", "Nein"],
+    "question": "Ist es falsch, dass Sind Pausen bei Erschöpfung ein Beispiel wirksamer Selbstfürsorge?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 1,
-    "explanation": "Eine Depression wird erst diagnostiziert, wenn Symptome länger andauern und das Leben stark beeinträchtigen."
+    "explanation": "Pausen helfen, Stress abzubauen und Kraft zu tanken.",
+    "category": "Selbstfürsorge"
   },
   {
     "id": "19",
-    "question": "Können gute soziale Beziehungen und Bewegung die psychische Gesundheit fördern?",
-    "answers": ["Ja", "Nein"],
+    "question": "Trifft es zu, dass Kann Selbstfürsorge die psychische Widerstandskraft (Resilienz) stärken?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Beide Faktoren tragen wesentlich zu einer stabilen psychischen Gesundheit bei."
+    "explanation": "Regelmäßige Selbstfürsorge schützt vor Überlastung und verbessert den Umgang mit Krisen.",
+    "category": "Selbstfürsorge"
   },
   {
     "id": "20",
-    "question": "Hängt das Phänomen der Sucht mit Substanzmissbrauch zusammen?",
-    "answers": ["Ja", "Nein"],
+    "question": "Ist die folgende Aussage richtig: Ist Selbstfürsorge egoistisch und schadet anderen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Selbstfürsorge ist nicht egoistisch; sie hilft, gesund zu bleiben und für andere da sein zu können.",
+    "category": "Selbstfürsorge"
+  },
+  {
+    "id": "21",
+    "question": "Ist es falsch, dass Gehören ausreichend Schlaf, Bewegung und gesunde Ernährung zur Selbstfürsorge?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Körperliche Faktoren wie Schlaf, Bewegung und Ernährung sind zentrale Bausteine.",
+    "category": "Selbstfürsorge"
+  },
+  {
+    "id": "22",
+    "question": "Trifft es zu, dass Kann es für Kinder psychisch erkrankter Eltern besonders belastend sein, Verantwortung für die Eltern zu übernehmen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
     "correctIndex": 0,
-    "explanation": "Sucht führt oft zu regelmäßigem und unkontrolliertem Substanzmissbrauch."
+    "explanation": "Viele Kinder übernehmen früh zu viel Verantwortung und fühlen sich überfordert.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "23",
+    "question": "Ist es falsch, dass Hilft es Kindern psychisch erkrankter Eltern, wenn sie Unterstützung von außen erhalten?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vertrauenspersonen, Beratungsstellen und Familienhilfen entlasten spürbar.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "24",
+    "question": "Trifft es zu, dass Können Kinder psychisch erkrankter Eltern gesund aufwachsen, wenn sie Unterstützung haben?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ein unterstützendes Umfeld und offene Gespräche fördern Resilienz und Gesundheit.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "25",
+    "question": "Ist es falsch, dass Übernehmen Kinder psychisch erkrankter Eltern häufig die Rolle der Fürsorgeperson?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viele Kinder schlüpfen in die Elternrolle und kümmern sich übermäßig um den erkrankten Elternteil.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "26",
+    "question": "Trifft es zu, dass Ist es für Kinder in dieser Situation wichtig, eigene Bedürfnisse ernst zu nehmen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kinder dürfen Unterstützung annehmen und ihre Gefühle sowie Grenzen wahrnehmen.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "27",
+    "question": "Ist es falsch, dass Finden Kinder psychisch erkrankter Eltern Hilfe bei Beratungsstellen wie KidKit oder beim Jugendamt?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beratungsstellen, Familienhilfen und Online-Angebote wie KidKit unterstützen gezielt.",
+    "category": "Psychisch erkrankte Eltern"
+  },
+  {
+    "id": "28",
+    "question": "Trifft es zu, dass Werden bei Stress Hormone wie Adrenalin und Cortisol ausgeschüttet?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stress aktiviert das Nervensystem und setzt Stresshormone frei.",
+    "category": "Stress"
+  },
+  {
+    "id": "29",
+    "question": "Ist es falsch, dass Kann positiver Stress (Eustress) motivieren, während negativer Stress (Distress) überfordert?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eustress kann anspornen; Distress belastet und kann krank machen.",
+    "category": "Stress"
+  },
+  {
+    "id": "30",
+    "question": "Trifft es zu, dass Ist Herzklopfen eine typische körperliche Reaktion bei Stress?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Herzrasen, schnellere Atmung und Anspannung sind klassische Stressreaktionen.",
+    "category": "Stress"
+  },
+  {
+    "id": "31",
+    "question": "Ist es falsch, dass Helfen Achtsamkeitsübungen und Entspannungstechniken nachweislich beim Stressabbau?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Achtsamkeit, Atemübungen und Bewegung reduzieren Stress wirksam.",
+    "category": "Stress"
+  },
+  {
+    "id": "32",
+    "question": "Trifft es zu, dass Wird Stress problematisch, wenn er dauerhaft anhält und keine Erholung möglich ist?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chronischer Stress kann zu Erschöpfung, psychischen Erkrankungen und körperlichen Problemen führen.",
+    "category": "Stress"
+  },
+  {
+    "id": "33",
+    "question": "Ist es falsch, dass Sind starke Wechsel zwischen manischen und depressiven Phasen typisch für eine bipolare Störung?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Betroffene erleben extreme Phasen von Hochstimmung (Manie) und Tiefstimmung (Depression).",
+    "category": "Bipolare Störung"
+  },
+  {
+    "id": "34",
+    "question": "Trifft es zu, dass Kennzeichnet eine manische Phase gesteigerte Aktivität und Risikoverhalten?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "In der Manie fühlen sich Betroffene energiegeladen, überschätzen sich und handeln unüberlegt.",
+    "category": "Bipolare Störung"
+  },
+  {
+    "id": "35",
+    "question": "Ist es falsch, dass Kann eine bipolare Störung den Alltag stark beeinträchtigen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Die Stimmungslagen wirken sich massiv auf Arbeit, Beziehungen und Gesundheit aus.",
+    "category": "Bipolare Störung"
+  },
+  {
+    "id": "36",
+    "question": "Trifft es zu, dass Besteht die Behandlung einer bipolaren Störung häufig aus Medikamenten (Stimmungsstabilisierern) und Psychotherapie?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Medikamente stabilisieren die Stimmung; Psychotherapie unterstützt im Umgang mit den Phasen.",
+    "category": "Bipolare Störung"
+  },
+  {
+    "id": "37",
+    "question": "Ist die folgende Aussage richtig: Ist die bipolare Störung dasselbe wie Schizophrenie?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bipolare Störung und Schizophrenie sind unterschiedliche Krankheitsbilder.",
+    "category": "Bipolare Störung"
+  },
+  {
+    "id": "38",
+    "question": "Ist es falsch, dass Ist eine anhaltend gedrückte Stimmung ein Hauptsymptom einer Depression?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Depressive Episoden sind durch dauerhafte Niedergeschlagenheit und Interessenverlust gekennzeichnet.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "39",
+    "question": "Trifft es zu, dass Können Depressionen Menschen in jedem Alter betreffen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Depressionen können Kinder, Jugendliche, Erwachsene und ältere Menschen betreffen.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "40",
+    "question": "Ist es falsch, dass Handelt es sich bei Depression um eine ernsthafte, behandelbare psychische Erkrankung?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Depression ist eine behandlungsbedürftige Erkrankung, keine normale Stimmungsschwankung.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "41",
+    "question": "Ist die folgende Aussage richtig: Ist Euphorie ein typisches Symptom einer Depression?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Euphorie ist eher ein Merkmal manischer Phasen, nicht der Depression.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "42",
+    "question": "Trifft es zu, dass Kann eine Kombination aus Psychotherapie und Medikamenten Depressionen wirksam behandeln?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Psychotherapie und Antidepressiva sind wirksam – je nach Schweregrad auch in Kombination.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "43",
+    "question": "Ist es falsch, dass Sind Depressionen mit professioneller Hilfe gut behandelbar?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Depressionen sind behandelbar, erfordern aber meist professionelle Unterstützung.",
+    "category": "Depressionen"
+  },
+  {
+    "id": "44",
+    "question": "Trifft es zu, dass Sind wiederkehrende Essanfälle mit anschließendem Erbrechen typisch für Bulimie?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bei Bulimie treten Essanfälle auf, gefolgt von kompensatorischem Verhalten wie Erbrechen.",
+    "category": "Bulimie"
+  },
+  {
+    "id": "45",
+    "question": "Ist es falsch, dass Kann häufiges Erbrechen bei Bulimie Zähne und Speiseröhre schädigen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Erbrechen greift Zähne, Speiseröhre und Magen an und kann schwere Folgen haben.",
+    "category": "Bulimie"
+  },
+  {
+    "id": "46",
+    "question": "Trifft es zu, dass Können auch Jungen und Männer an Bulimie erkranken?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Obwohl häufiger bei jungen Frauen, können alle Geschlechter betroffen sein.",
+    "category": "Bulimie"
+  },
+  {
+    "id": "47",
+    "question": "Ist es falsch, dass Sind starke Schuld- und Schamgefühle nach Essanfällen bei Bulimie häufig?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viele Betroffene leiden unter Schuld- und Schamgefühlen.",
+    "category": "Bulimie"
+  },
+  {
+    "id": "48",
+    "question": "Trifft es zu, dass Ist Psychotherapie die empfohlene Behandlung bei Bulimie?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Psychotherapeutische Verfahren, oft mit ärztlicher Begleitung, sind am wirksamsten.",
+    "category": "Bulimie"
+  },
+  {
+    "id": "49",
+    "question": "Ist es falsch, dass Kann Sucht sowohl psychische als auch körperliche Abhängigkeit umfassen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sucht umfasst körperliche (z. B. Alkohol, Nikotin) und psychische Abhängigkeit (z. B. Glücksspiel).",
+    "category": "Sucht"
+  },
+  {
+    "id": "50",
+    "question": "Trifft es zu, dass Steigen durch Nikotin- oder Alkoholabhängigkeit Risiken für Gesundheitsprobleme und verringerte Leistungsfähigkeit?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suchtmittel schädigen Nervensystem und Organe und verschlechtern die Leistungsfähigkeit.",
+    "category": "Sucht"
+  },
+  {
+    "id": "51",
+    "question": "Ist es falsch, dass Kann Verhaltenssucht (z. B. exzessives Gaming) ähnliche Mechanismen wie Substanzsucht aufweisen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Auch Verhaltenssüchte wirken auf das Belohnungssystem und können stark beeinträchtigen.",
+    "category": "Sucht"
+  },
+  {
+    "id": "52",
+    "question": "Trifft es zu, dass Spricht man von Burnout bei chronischer Erschöpfung, emotionaler Distanz und Leistungsabfall?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Burnout ist ein Zustand körperlicher, emotionaler und geistiger Erschöpfung durch chronischen Stress.",
+    "category": "Burnout"
+  },
+  {
+    "id": "53",
+    "question": "Ist es falsch, dass Können regelmäßige Pausen und Selbstfürsorge Burnout vorbeugen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Burnout-Prävention basiert auf Stressmanagement, Erholung und gesunden Grenzen.",
+    "category": "Burnout"
+  },
+  {
+    "id": "54",
+    "question": "Trifft es zu, dass Sind chronische Müdigkeit, Reizbarkeit und verminderte Motivation typische Burnout-Symptome?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Burnout äußert sich durch anhaltende Erschöpfung, reduzierte Leistungsfähigkeit und emotionale Distanz.",
+    "category": "Burnout"
+  },
+  {
+    "id": "55",
+    "question": "Ist es falsch, dass Ist eine Borderline-Persönlichkeitsstörung durch instabile Beziehungen, starke Stimmungsschwankungen und Impulsivität gekennzeichnet?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Borderline zeichnet sich durch emotionale Instabilität, Impulsivität und Beziehungsprobleme aus.",
+    "category": "Borderline"
+  },
+  {
+    "id": "56",
+    "question": "Trifft es zu, dass Haben Menschen mit Borderline häufig eine intensive Angst vor Verlassenwerden?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Starke Angst vor Ablehnung und Verlassenwerden ist typisch.",
+    "category": "Borderline"
+  },
+  {
+    "id": "57",
+    "question": "Ist es falsch, dass Wird bei Borderline häufig Dialektisch-Behaviorale Therapie (DBT) eingesetzt?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "DBT ist evidenzbasiert und kombiniert Verhaltenstherapie mit Achtsamkeit.",
+    "category": "Borderline"
+  },
+  {
+    "id": "58",
+    "question": "Trifft es zu, dass Ist ausreichender Schlaf wichtig, weil er Stimmung, Gedächtnis und Stressresistenz reguliert?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Schlaf unterstützt Emotionsregulation, Gedächtnis und Stressbewältigung.",
+    "category": "Selbstfürsorge / Resilienz"
+  },
+  {
+    "id": "59",
+    "question": "Ist es falsch, dass Fördert der Aufbau sozialer Unterstützung und gesunder Routinen die Resilienz?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Soziale Ressourcen und Routinen stärken die Widerstandskraft gegen Stress.",
+    "category": "Selbstfürsorge / Resilienz"
+  },
+  {
+    "id": "60",
+    "question": "Trifft es zu, dass Können resiliente Menschen Stress besser bewältigen?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Resilienz erleichtert die erfolgreiche Bewältigung von Belastungen.",
+    "category": "Selbstfürsorge / Resilienz"
+  },
+  {
+    "id": "61",
+    "question": "Ist es falsch, dass Sollte man eine psychisch belastete Person im Bekanntenkreis offen ansprechen, zuhören, Unterstützung anbieten und ggf. professionelle Hilfe vermitteln?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Empathisch zuhören, Verständnis zeigen und auf professionelle Hilfe hinweisen (z. B. Hausarzt, Psychotherapie, Krisenhilfe) ist sinnvoll.",
+    "category": "Zusätzliche Fragen"
+  },
+  {
+    "id": "62",
+    "question": "Trifft es zu, dass Wurden psychisch erkrankte Menschen früher häufig stigmatisiert, in Anstalten eingesperrt und teilweise unmenschlich behandelt?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 0,
+    "explanation": "Historisch kam es oft zu Stigmatisierung und fragwürdigen Behandlungsmethoden; moderne Psychiatrie entwickelte sich erst später.",
+    "category": "Zusätzliche Fragen"
+  },
+  {
+    "id": "63",
+    "question": "Ist es falsch, dass Werden psychische Erkrankungen heute durch klinische Interviews, Tests, Fragebögen und ggf. körperliche Untersuchungen ermittelt?",
+    "answers": [
+      "Ja",
+      "Nein"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diagnostik erfolgt meist standardisiert durch Fachkräfte mit Gesprächen, Tests und Ausschluss körperlicher Ursachen.",
+    "category": "Zusätzliche Fragen"
   }
 ]
