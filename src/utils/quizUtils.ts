@@ -9,7 +9,7 @@ export const shuffleArray = <T>(array: T[]): T[] => {
   return shuffled;
 };
 
-export const selectRandomQuestions = (questions: Question[], count: number = 10): Question[] => {
+export const selectRandomQuestions = (questions: Question[], questionsPerCategory: number = 2): Question[] => {
   // Group questions by category
   const questionsByCategory = questions.reduce((acc, question) => {
     const category = question.category;
@@ -23,19 +23,15 @@ export const selectRandomQuestions = (questions: Question[], count: number = 10)
   // Get all unique categories
   const categories = Object.keys(questionsByCategory);
   
-  // Shuffle and select random categories
-  const shuffledCategories = shuffleArray(categories);
-  const selectedCategories = shuffledCategories.slice(0, count);
-  
-  // Select one random question from each selected category
+  // Select questionsPerCategory random questions from each category
   const selectedQuestions: Question[] = [];
-  for (const category of selectedCategories) {
-    const categoryQuestions = questionsByCategory[category];
-    const randomQuestion = categoryQuestions[Math.floor(Math.random() * categoryQuestions.length)];
-    selectedQuestions.push(randomQuestion);
+  for (const category of categories) {
+    const categoryQuestions = shuffleArray(questionsByCategory[category]);
+    const selected = categoryQuestions.slice(0, questionsPerCategory);
+    selectedQuestions.push(...selected);
   }
   
-  return selectedQuestions;
+  return shuffleArray(selectedQuestions);
 };
 
 export const shuffleAnswers = (question: Question): ShuffledQuestion => {

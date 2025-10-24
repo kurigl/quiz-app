@@ -30,12 +30,12 @@ const App: React.FC = () => {
   };
 
   const startQuiz = () => {
-    if (allQuestions.length < 10) {
+    if (allQuestions.length < 30) {
       setQuizState(QuizState.ERROR);
       return;
     }
 
-    const selectedQuestions = selectRandomQuestions(allQuestions, 10);
+    const selectedQuestions = selectRandomQuestions(allQuestions, 2);
     const shuffledQuestions = selectedQuestions.map(shuffleAnswers);
     
     setCurrentQuestions(shuffledQuestions);
