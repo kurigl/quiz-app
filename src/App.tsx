@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Question as QuestionType, ShuffledQuestion, QuizState, QuizResult, QuizAnswer } from './types/Quiz';
-import { loadQuestions, selectRandomQuestions, shuffleAnswers } from './utils/quizUtils';
+import { loadQuestions, selectRandomQuestions, shuffleAnswers, validateQuestionStructure } from './utils/quizUtils';
 import StartScreen from './components/StartScreen';
 import Question from './components/Question';
 import Results from './components/Results';
@@ -30,19 +30,27 @@ const App: React.FC = () => {
   };
 
   const startQuiz = () => {
-    if (allQuestions.length < 30) {
+    // Validate question structure
+    const validation = validateQuestionStructure(allQuestions);
+    if (!validation.isValid) {
+      console.error('Validierungsfehler:', validation.error);
       setQuizState(QuizState.ERROR);
       return;
     }
 
-    const selectedQuestions = selectRandomQuestions(allQuestions, 2);
-    const shuffledQuestions = selectedQuestions.map(shuffleAnswers);
-    
-    setCurrentQuestions(shuffledQuestions);
-    setCurrentQuestionIndex(0);
-    setAnswers([]);
-    setResult(null);
-    setQuizState(QuizState.PLAYING);
+    try {
+      const selectedQuestions = selectRandomQuestions(allQuestions, 2);
+      const shuffledQuestions = selectedQuestions.map(shuffleAnswers);
+      
+      setCurrentQuestions(shuffledQuestions);
+      setCurrentQuestionIndex(0);
+      setAnswers([]);
+      setResult(null);
+      setQuizState(QuizState.PLAYING);
+    } catch (error) {
+      console.error('Fehler beim Auswählen der Fragen:', error);
+      setQuizState(QuizState.ERROR);
+    }
   };
 
   const handleAnswer = (selectedIndex: number) => {
