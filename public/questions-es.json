@@ -1,0 +1,277 @@
+[
+  {
+    "id": "1",
+    "question": "¿Las enfermedades mentales son siempre visibles o fáciles de reconocer?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Las enfermedades mentales suelen ser invisibles y no se reconocen de inmediato.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "2",
+    "question": "¿Aproximadamente uno de cada tres adultos en Alemania padece un trastorno mental a lo largo de su vida?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Aproximadamente un tercio de los adultos en Alemania padece un trastorno mental a lo largo de su vida.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "3",
+    "question": "¿Casi todas las personas se ven afectadas por un trastorno mental a lo largo de su vida?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "No todas las personas padecen enfermedades mentales, sino aproximadamente un tercio a lo largo de su vida.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "4",
+    "question": "¿Las enfermedades mentales pueden afectar a cualquier persona?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Las enfermedades mentales pueden afectar a personas de cualquier edad, sexo y origen.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "5",
+    "question": "¿Las enfermedades mentales solo afectan a personas con falta de fuerza de voluntad?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Las enfermedades mentales no son una cuestión de fuerza de voluntad, sino trastornos que tienen una explicación médica.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "6",
+    "question": "¿Solo los medicamentos ayudan a tratar las enfermedades mentales?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Además de los medicamentos, también ayudan la psicoterapia, el ejercicio físico y el apoyo social.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "7",
+    "question": "¿Muchas personas afectadas no buscan ayuda por miedo a los prejuicios?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Por miedo a la estigmatización, muchas personas renuncian a la ayuda profesional.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "8",
+    "question": "¿Las enfermedades mentales se pueden tratar bien?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Las enfermedades mentales suelen ser fáciles de tratar, por ejemplo, con psicoterapia.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "9",
+    "question": "¿Las enfermedades mentales siempre desaparecen por sí solas?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Sin tratamiento, las enfermedades mentales no suelen desaparecer por sí solas.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+
+  {
+    "id": "10",
+    "question": "¿Las enfermedades mentales se desarrollan exclusivamente en la juventud?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Las enfermedades mentales pueden aparecer a cualquier edad.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+
+  {
+    "id": "11",
+    "question": "¿Las enfermedades físicas afectan exclusivamente a los órganos, mientras que las mentales solo afectan al cerebro?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Las enfermedades mentales y físicas se influyen mutuamente.",
+    "category": "Enfermedad mental vs. física",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "12",
+    "question": "¿Las enfermedades mentales también pueden manifestarse físicamente?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El estrés psíquico puede provocar síntomas físicos como dolor o agotamiento.",
+    "category": "Enfermedad mental vs. física",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "13",
+    "question": "¿Las enfermedades mentales son siempre visibles de inmediato?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "A menudo, las enfermedades mentales pasan desapercibidas durante mucho tiempo, ya que los síntomas son internos.",
+    "category": "Enfermedad mental vs. física",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "14",
+    "question": "¿Se pueden tratar con éxito tanto las enfermedades mentales como las físicas?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Ambos tipos de enfermedades se pueden tratar con terapia, medicamentos o una combinación de ambos.",
+    "category": "Enfermedad mental vs. física",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "15",
+    "question": "¿Las enfermedades mentales desaparecen automáticamente sin tratamiento?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "Por lo general, es necesario un tratamiento para curarlas a largo plazo.",
+    "category": "Enfermedad mental vs. física",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+
+  {
+    "id": "16",
+    "question": "¿El autocuidado significa tomar medidas que promuevan el propio bienestar?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El autocuidado significa hacer algo de forma activa por el propio bienestar físico y mental.",
+    "category": "Autocuidado",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "17",
+    "question": "¿El autocuidado significa ignorar los problemas para evitar el estrés?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "El autocuidado no significa reprimir los problemas, sino afrontarlos de forma consciente.",
+    "category": "Autocuidado",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "18",
+    "question": "¿Es importante el autocuidado porque fortalece la resistencia psicológica?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El autocuidado fomenta la resiliencia y ayuda a gestionar mejor el estrés.",
+    "category": "Autocuidado",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "19",
+    "question": "¿Contribuye el autocuidado a la propia salud?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El autocuidado tiene un efecto positivo en la salud física y psicológica.",
+    "category": "Autocuidado",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "20",
+    "question": "¿Dormir lo suficiente y llevar una alimentación saludable forma parte del autocuidado?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Dormir regularmente, hacer ejercicio y llevar una alimentación saludable son componentes importantes del autocuidado.",
+    "category": "Autocuidado",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+
+  {
+    "id": "21",
+    "question": "¿El estrés positivo motiva, mientras que el estrés negativo abruma?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El eustrés puede motivar, mientras que el distrés permanente es agotador.",
+    "category": "Hijos de padres con enfermedades mentales",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "22",
+    "question": "¿Ayudan los ejercicios de atención plena y las técnicas de relajación a reducir el estrés?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "La atención plena y la relajación promueven el bienestar y reducen el estrés.",
+    "category": "Hijos de padres con enfermedades mentales",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "23",
+    "question": "¿Ayuda reprimir los problemas para reducir el estrés?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "La represión puede reducir el estrés a corto plazo, pero no resuelve los problemas.",
+    "category": "Hijos de padres con enfermedades mentales",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "24",
+    "question": "¿El estrés se vuelve peligroso si persiste de forma permanente y no es posible recuperarse?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El estrés crónico puede dañar considerablemente el cuerpo y la psique.",
+    "category": "Hijos de padres con enfermedades mentales",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "25",
+    "question": "¿Las palpitaciones son una reacción física típica al estrés?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Las palpitaciones, la sudoración o la tensión son reacciones típicas al estrés.",
+    "category": "Hijos de padres con enfermedades mentales",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+
+  {
+    "id": "26",
+    "question": "¿Es el estado de ánimo deprimido persistente un síntoma principal típico de la depresión?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "El estado de ánimo deprimido persistente es una característica principal de la depresión.",
+    "category": "Depresión",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "27",
+    "question": "¿La depresión puede afectar a personas de cualquier edad?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "La depresión puede afectar a niños, adolescentes, adultos y personas mayores.",
+    "category": "Depresión",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "28",
+    "question": "¿La depresión suele provocar pérdida de interés?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "Las personas con depresión suelen perder interés en cosas que antes les gustaban.",
+    "category": "Depresión",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "29",
+    "question": "¿La depresión es una enfermedad mental grave pero tratable?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 0,
+    "explanation": "La depresión es grave, pero se puede tratar de forma eficaz.",
+    "category": "Depresión",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "30",
+    "question": "¿La depresión es un signo de falta de fuerza de voluntad?",
+    "answers": ["Sí", "No"],
+    "correctIndex": 1,
+    "explanation": "La depresión no es una debilidad, sino una enfermedad grave.",
+    "category": "Depresión",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  }
+]

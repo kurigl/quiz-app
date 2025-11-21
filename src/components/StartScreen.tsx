@@ -1,16 +1,19 @@
 import React from 'react';
+import { useI18n } from '../i18n/I18nContext';
 
 interface StartScreenProps {
   onStart: () => void;
 }
 
 const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
+  const { t } = useI18n();
+
   return (
     <div className="start-screen">
-      <h1>Kids in Mind präsentiert:</h1>
-      <p>Teste dein Wissen mit 10 zufälligen Fragen!</p>
+      <h1>{t('app.title')}</h1>
+      <p>{t('app.subtitle')}</p>
       <button className="start-button" onClick={onStart}>
-        Quiz starten
+        {t('app.startButton')}
       </button>
     </div>
   );

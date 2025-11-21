@@ -1,5 +1,6 @@
 import React from 'react';
 import { ShuffledQuestion } from '../types/Quiz';
+import { useI18n } from '../i18n/I18nContext';
 
 interface QuestionProps {
   question: ShuffledQuestion;
@@ -26,6 +27,7 @@ const Question: React.FC<QuestionProps> = ({
   selectedAnswer,
   isCorrect
 }) => {
+  const { t } = useI18n();
   const handleAnswerSelect = (index: number) => {
     if (!isAnswered) {
       onAnswer(index);
@@ -49,7 +51,7 @@ const Question: React.FC<QuestionProps> = ({
   return (
     <div className="question-container">
       <div className="progress">
-        Frage {questionNumber}/{totalQuestions}
+        {questionNumber}/{totalQuestions}
       </div>
       
       <h2>{question.question}</h2>
@@ -77,21 +79,21 @@ const Question: React.FC<QuestionProps> = ({
           onClick={() => handleAnswerSelect(0)}
           disabled={isAnswered}
         >
-          Ja
+          {t('answer.yes')}
         </button>
         <button 
           className={getAnswerClassName(1)}
           onClick={() => handleAnswerSelect(1)}
           disabled={isAnswered}
         >
-          Nein
+          {t('answer.no')}
         </button>
       </div>
       
       {isAnswered && !isCorrect && (
         <div className="correct-answer-info">
           <div className="correct-answer-text">
-            Richtige Antwort: {question.answers[question.correctShuffledIndex]}
+            {t('results.correctAnswer')} {question.answers[question.correctShuffledIndex]}
           </div>
           <div className="explanation">
             {question.explanation}

@@ -2,12 +2,15 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { Question as QuestionType, ShuffledQuestion, QuizState, QuizResult, QuizAnswer } from './types/Quiz';
 import { loadQuestions, selectRandomQuestions, shuffleAnswers, validateQuestionStructure } from './utils/quizUtils';
+import { I18nProvider, useI18n } from './i18n/I18nContext';
 import StartScreen from './components/StartScreen';
 import Question from './components/Question';
 import Results from './components/Results';
 import ErrorScreen from './components/ErrorScreen';
+import LanguageSwitcher from './components/LanguageSwitcher';
 
-const App: React.FC = () => {
+const QuizApp: React.FC = () => {
+  const { t, language } = useI18n();
   const [quizState, setQuizState] = useState<QuizState>(QuizState.START);
   const [allQuestions, setAllQuestions] = useState<QuestionType[]>([]);
   const [currentQuestions, setCurrentQuestions] = useState<ShuffledQuestion[]>([]);
@@ -17,12 +20,22 @@ const App: React.FC = () => {
 
   useEffect(() => {
     loadQuestionsData();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [language]);
 
   const loadQuestionsData = async () => {
     try {
-      const questions = await loadQuestions();
+      const questions = await loadQuestions(language);
       setAllQuestions(questions);
+      
+      // Reset quiz state when language changes and quiz is running
+      if (quizState === QuizState.PLAYING || quizState === QuizState.RESULTS) {
+        setQuizState(QuizState.START);
+        setCurrentQuestions([]);
+        setCurrentQuestionIndex(0);
+        setAnswers([]);
+        setResult(null);
+      }
     } catch (error) {
       console.error('Error loading questions:', error);
       setQuizState(QuizState.ERROR);
@@ -153,12 +166,21 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <div className="orientation-notice">
-        <span className="notice-text">Für die beste Ansicht bitte Gerät ins Querformat drehen.</span>
+        <span className="notice-text">{t('app.orientationNotice')}</span>
       </div>
       <div className="quiz-container">
+        <LanguageSwitcher />
         {renderCurrentScreen()}
       </div>
     </div>
+  );
+};
+
+const App: React.FC = () => {
+  return (
+    <I18nProvider>
+      <QuizApp />
+    </I18nProvider>
   );
 };
 

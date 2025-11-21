@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { QuizResult, ShuffledQuestion } from '../types/Quiz';
 import confetti from 'canvas-confetti';
+import { useI18n } from '../i18n/I18nContext';
 
 interface ResultsProps {
   result: QuizResult;
@@ -9,6 +10,7 @@ interface ResultsProps {
 }
 
 const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
+  const { t } = useI18n();
   const [showDetails, setShowDetails] = useState(false);
   const [progressWidth, setProgressWidth] = useState(0);
 
@@ -41,11 +43,11 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
 
   return (
     <div className="results-container">
-      <h2>Quiz beendet!</h2>
+      <h2>{t('results.title')}</h2>
       
       <div className="score-section">
         <div className="score-text">
-          {result.correctAnswers}/{result.totalQuestions} Punkte
+          {result.correctAnswers}/{result.totalQuestions} {t('results.points')}
         </div>
         
         <div className="score-bar">
@@ -62,17 +64,17 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
 
       <div className="result-actions">
         <button className="details-button" onClick={toggleDetails}>
-          {showDetails ? 'Auflösung ausblenden' : 'Auflösung anzeigen'}
+          {showDetails ? t('results.hideDetails') : t('results.showDetails')}
         </button>
         
         <button className="restart-button primary" onClick={onRestart}>
-          Neue Runde
+          {t('results.newRound')}
         </button>
       </div>
 
       {showDetails && (
         <div className="details-section">
-          <h3>Auflösung</h3>
+          <h3>{t('results.resolution')}</h3>
           {result.answers.map((answer, index) => {
             const question = questions[index];
             return (
@@ -80,14 +82,14 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
                 <div className="question-text">{question.question}</div>
                 <div className={`answer-result ${answer.isCorrect ? 'correct' : 'incorrect'}`}>
                   <div className="selected-answer">
-                    Deine Antwort: {question.shuffledAnswers[answer.selectedIndex]}
+                    {t('results.yourAnswer')} {question.shuffledAnswers[answer.selectedIndex]}
                     <span className={`result-icon ${answer.isCorrect ? 'correct' : 'incorrect'}`}>
                       {answer.isCorrect ? '✓' : '✗'}
                     </span>
                   </div>
                   {!answer.isCorrect && (
                     <div className="correct-answer">
-                      Richtige Antwort: {question.shuffledAnswers[answer.correctIndex]}
+                      {t('results.correctAnswer')} {question.shuffledAnswers[answer.correctIndex]}
                     </div>
                   )}
                   <div className="explanation-detail">
@@ -95,7 +97,7 @@ const Results: React.FC<ResultsProps> = ({ result, questions, onRestart }) => {
                   </div>
                   {question.infoLink && (
                     <div className="info-link">
-                      Hier kannst Du mehr darüber erfahren: <a href={question.infoLink} target="_blank" rel="noopener noreferrer">Mehr erfahren →</a>
+                      {t('results.moreInfo')} <a href={question.infoLink} target="_blank" rel="noopener noreferrer">{t('results.learnMore')}</a>
                     </div>
                   )}
                 </div>

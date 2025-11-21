@@ -6,6 +6,64 @@
 }
 
 /* ================================
+   LANGUAGE SWITCHER
+   ================================ */
+
+.language-switcher {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 5px;
+  z-index: 100;
+}
+
+.lang-btn {
+  background: linear-gradient(135deg, #efe5f4, #dae2ed);
+  border: 2px solid #c8d7e8;
+  color: #5a4a6a;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 40px;
+}
+
+.lang-btn:hover {
+  background: linear-gradient(135deg, #dccfe8, #c8d7e8);
+  transform: translateY(-2px);
+  box-shadow: 0 3px 10px rgba(149, 140, 170, 0.3);
+}
+
+.lang-btn.active {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.lang-btn.active:hover {
+  background: linear-gradient(135deg, #5a6dd8, #654a92);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+    gap: 3px;
+  }
+  
+  .lang-btn {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    min-width: 35px;
+  }
+}
+
+/* ================================
    ORIENTATION NOTICE
    ================================ */
 

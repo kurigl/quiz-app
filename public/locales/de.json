@@ -1,0 +1,35 @@
+{
+  "app": {
+    "title": "Kids in Mind präsentiert:",
+    "subtitle": "Teste dein Wissen mit 10 zufälligen Fragen!",
+    "startButton": "Quiz starten",
+    "orientationNotice": "Für die beste Ansicht bitte Gerät ins Querformat drehen."
+  },
+  "question": {
+    "of": "von",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "finish": "Beenden"
+  },
+  "answer": {
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "results": {
+    "title": "Quiz beendet!",
+    "points": "Punkte",
+    "showDetails": "Auflösung anzeigen",
+    "hideDetails": "Auflösung ausblenden",
+    "newRound": "Neue Runde",
+    "resolution": "Auflösung",
+    "yourAnswer": "Deine Antwort:",
+    "correctAnswer": "Richtige Antwort:",
+    "moreInfo": "Hier kannst Du mehr darüber erfahren:",
+    "learnMore": "Mehr erfahren →"
+  },
+  "error": {
+    "title": "Quiz gerade nicht verfügbar",
+    "message": "Es gab ein Problem beim Laden des Quiz. Bitte versuchen Sie es erneut.",
+    "retry": "Erneut versuchen"
+  }
+}

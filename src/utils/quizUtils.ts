@@ -92,9 +92,9 @@ export const shuffleAnswers = (question: Question): ShuffledQuestion => {
   };
 };
 
-export const loadQuestions = async (): Promise<Question[]> => {
+export const loadQuestions = async (language: string = 'de'): Promise<Question[]> => {
   try {
-    const response = await fetch(process.env.PUBLIC_URL + '/questions.json');
+    const response = await fetch(process.env.PUBLIC_URL + `/questions-${language}.json`);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
