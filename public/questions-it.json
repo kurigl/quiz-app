@@ -1,0 +1,276 @@
+[
+  {
+    "id": "1",
+    "question": "Le malattie mentali sono sempre visibili o facilmente riconoscibili?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Le malattie mentali sono spesso invisibili e non immediatamente riconoscibili.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "2",
+    "question": "Circa un terzo degli adulti in Germania soffre di un disturbo mentale nel corso della propria vita?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Circa un terzo degli adulti in Germania è affetto da un disturbo mentale nel corso della propria vita.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "3",
+    "question": "Quasi tutte le persone sono colpite da un disturbo psichico nel corso della loro vita?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Non tutte le persone soffrono di disturbi psichici: circa un terzo nel corso della vita.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "4",
+    "question": "Le malattie psichiche possono colpire chiunque?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Le malattie psichiche possono colpire persone di qualsiasi età, sesso e provenienza.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "5",
+    "question": "Le malattie psichiche colpiscono solo le persone con scarsa forza di volontà?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Le malattie psichiche non sono una questione di forza di volontà, ma disturbi spiegabili dal punto di vista medico.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "6",
+    "question": "Solo i farmaci aiutano in caso di malattie psichiche?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Oltre ai farmaci, aiutano anche la psicoterapia, l'attività fisica e il sostegno sociale.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "7",
+    "question": "Molte persone colpite non cercano aiuto per paura dei pregiudizi?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Per paura di essere stigmatizzati, molti rinunciano all'aiuto professionale.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "8",
+    "question": "Le malattie mentali possono essere trattate efficacemente?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Le malattie mentali sono generalmente trattabili, ad esempio con la psicoterapia.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "9",
+    "question": "Le malattie mentali scompaiono sempre da sole?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Senza trattamento, le malattie mentali di solito non scompaiono da sole.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+
+  {
+    "id": "10",
+    "question": "Le malattie psichiche si sviluppano esclusivamente durante l'adolescenza?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Le malattie psichiche possono manifestarsi a qualsiasi età.",
+    "category": "Generale",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "11",
+    "question": "Le malattie fisiche colpiscono esclusivamente gli organi, mentre quelle psichiche solo il cervello?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Le malattie psichiche e fisiche si influenzano a vicenda.",
+    "category": "Psichico vs. Fisico",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "12",
+    "question": "Le malattie psichiche possono manifestarsi anche fisicamente?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Lo stress psichico può causare sintomi fisici come dolore o stanchezza.",
+    "category": "Psichico vs. Fisico",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "13",
+    "question": "Le malattie psichiche sono sempre immediatamente visibili?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Spesso le malattie psichiche rimangono a lungo inosservate, poiché i sintomi sono interiori.",
+    "category": "Psichico vs. Fisico",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "14",
+    "question": "È possibile curare con successo sia le malattie psichiche che quelle fisiche?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Entrambe le forme di malattia possono essere curate con terapia, farmaci o combinazioni di entrambi.",
+    "category": "Psichico vs. Fisico",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "15",
+    "question": "Le malattie psichiche scompaiono automaticamente senza trattamento?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Di solito è necessario un trattamento per guarire a lungo termine.",
+    "category": "Psichico vs. Fisico",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+
+  {
+    "id": "16",
+    "question": "Prendersi cura di sé significa adottare misure che favoriscono il proprio benessere?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Prendersi cura di sé significa agire attivamente per il proprio benessere fisico e mentale.",
+    "category": "Autocura",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "17",
+    "question": "Prendersi cura di sé significa ignorare i problemi per evitare lo stress?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "Prendersi cura di sé non significa reprimere i problemi, ma affrontarli consapevolmente.",
+    "category": "Autocura",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "18",
+    "question": "Prendersi cura di sé è importante perché rafforza la resistenza psicologica?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Prendersi cura di sé favorisce la resilienza e aiuta a gestire meglio lo stress.",
+    "category": "Autocura",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "19",
+    "question": "Prendersi cura di sé contribuisce alla propria salute?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Prendersi cura di sé ha un effetto positivo sulla salute fisica e mentale.",
+    "category": "Autocura",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "20",
+    "question": "Dormire a sufficienza e seguire un'alimentazione sana fanno parte della cura di sé?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Dormire regolarmente, fare esercizio fisico e seguire un'alimentazione sana sono componenti importanti della cura di sé.",
+    "category": "Autocura",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+
+  {
+    "id": "21",
+    "question": "Lo stress positivo motiva, mentre quello negativo opprime?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Lo stress positivo può motivare, mentre quello negativo opprime.",
+    "category": "Figli di genitori con malattie psichiche",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "22",
+    "question": "Gli esercizi di consapevolezza e le tecniche di rilassamento aiutano a ridurre lo stress?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "La consapevolezza e il rilassamento favoriscono il benessere e riducono lo stress.",
+    "category": "Figli di genitori con malattie psichiche",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "23",
+    "question": "È utile reprimere i problemi per ridurre lo stress?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "La repressione può ridurre lo stress a breve termine, ma non risolve i problemi.",
+    "category": "Figli di genitori con malattie psichiche",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "24",
+    "question": "Lo stress diventa pericoloso se persiste a lungo e non è possibile recuperare?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Lo stress cronico può danneggiare in modo significativo il corpo e la psiche.",
+    "category": "Figli di genitori con malattie psichiche",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "25",
+    "question": "Le palpitazioni cardiache sono una tipica reazione fisica allo stress?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Palpitazioni cardiache, sudorazione o tensione sono tipiche reazioni allo stress.",
+    "category": "Figli di genitori con malattie psichiche",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+
+  {
+    "id": "26",
+    "question": "Un umore costantemente depresso è un sintomo tipico della depressione?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Un umore costantemente depresso è una caratteristica principale della depressione.",
+    "category": "Depressione",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "27",
+    "question": "La depressione può colpire persone di qualsiasi età?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "La depressione può colpire bambini, adolescenti, adulti e anziani.",
+    "category": "Depressione",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "28",
+    "question": "La depressione porta spesso alla perdita di interesse?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "Le persone affette da depressione spesso perdono interesse nelle cose che prima le rendevano felici.",
+    "category": "Depressione",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "29",
+    "question": "La depressione è una malattia mentale grave ma curabile?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 0,
+    "explanation": "La depressione è grave, ma può essere trattata efficacemente.",
+    "category": "Depressione",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "30",
+    "question": "La depressione è un segno di debolezza di volontà?",
+    "answers": ["Sì", "No"],
+    "correctIndex": 1,
+    "explanation": "La depressione non è una debolezza, ma una malattia da prendere sul serio.",
+    "category": "Depressione",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  }
+]

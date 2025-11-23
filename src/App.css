@@ -13,53 +13,101 @@
   position: absolute;
   top: 15px;
   right: 15px;
-  display: flex;
-  gap: 5px;
-  z-index: 100;
+  z-index: 200;
 }
 
-.lang-btn {
+.lang-trigger-btn {
   background: linear-gradient(135deg, #efe5f4, #dae2ed);
   border: 2px solid #c8d7e8;
   color: #5a4a6a;
-  padding: 6px 12px;
-  font-size: 0.85rem;
+  padding: 8px 16px;
+  padding-left: 12px; /* Adjust padding for better spacing with icon */
+  font-size: 0.95rem;
   font-weight: 600;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
-  min-width: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(149, 140, 170, 0.15);
 }
 
-.lang-btn:hover {
+.lang-trigger-btn:hover {
   background: linear-gradient(135deg, #dccfe8, #c8d7e8);
   transform: translateY(-2px);
-  box-shadow: 0 3px 10px rgba(149, 140, 170, 0.3);
+  box-shadow: 0 4px 12px rgba(149, 140, 170, 0.25);
 }
 
-.lang-btn.active {
+.lang-trigger-btn:hover .globe-icon {
+  color: #3148b3; /* Slightly darker on hover */
+}
+
+.globe-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4263EB;
+  line-height: 1;
+}
+
+.globe-icon svg {
+  display: block;
+}
+
+.lang-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e1e5e9;
+  overflow: hidden;
+  min-width: 140px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.lang-dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-family: inherit;
+}
+
+.lang-dropdown-item:hover {
+  background: #f5f0fa;
+  color: #5a4a6a;
+}
+
+.lang-dropdown-item.active {
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  border-color: #667eea;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
-}
-
-.lang-btn.active:hover {
-  background: linear-gradient(135deg, #5a6dd8, #654a92);
-  transform: translateY(-2px);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   .language-switcher {
     top: 10px;
     right: 10px;
-    gap: 3px;
   }
   
-  .lang-btn {
-    padding: 5px 10px;
-    font-size: 0.75rem;
-    min-width: 35px;
+  .lang-trigger-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
   }
 }
 

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 
-type Language = 'de' | 'en' | 'es';
+type Language = 'de' | 'en' | 'es' | 'it';
 
 interface Translations {
   [key: string]: any;
@@ -53,7 +53,7 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   useEffect(() => {
     // Load saved language preference or default to German
     const savedLang = localStorage.getItem('language') as Language;
-    if (savedLang && ['de', 'en', 'es'].includes(savedLang)) {
+    if (savedLang && ['de', 'en', 'es', 'it'].includes(savedLang)) {
       setLanguageState(savedLang);
     }
   }, []);
