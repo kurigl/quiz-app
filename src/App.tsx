@@ -168,7 +168,7 @@ const QuizApp: React.FC = () => {
       <div className="orientation-notice">
         <span className="notice-text">{t('app.orientationNotice')}</span>
       </div>
-      <div className="quiz-container">
+      <div className={`quiz-container ${quizState === QuizState.PLAYING ? 'question-mode' : ''}`}>
         <LanguageSwitcher />
         {renderCurrentScreen()}
       </div>

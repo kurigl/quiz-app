@@ -50,8 +50,15 @@ const Question: React.FC<QuestionProps> = ({
 
   return (
     <div className="question-container">
-      <div className="progress">
-        {questionNumber}/{totalQuestions}
+      <div className="progress-dots">
+        {Array.from({ length: totalQuestions }).map((_, index) => (
+          <div
+            key={index}
+            className={`progress-dot ${
+              index < questionNumber ? 'completed' : ''
+            } ${index === questionNumber - 1 ? 'current' : ''}`}
+          />
+        ))}
       </div>
       
       <h2>{question.question}</h2>
