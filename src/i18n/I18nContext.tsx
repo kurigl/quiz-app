@@ -52,9 +52,14 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   useEffect(() => {
     // Load saved language preference or default to German
-    const savedLang = localStorage.getItem('language') as Language;
-    if (savedLang && ['de', 'en', 'es', 'it'].includes(savedLang)) {
-      setLanguageState(savedLang);
+    const savedLang = localStorage.getItem('language');
+    if (savedLang) {
+      const normalizedLang = savedLang.toLowerCase() as Language;
+      if (['de', 'en', 'es', 'it'].includes(normalizedLang)) {
+        setLanguageState(normalizedLang);
+        // Update localStorage with normalized value
+        localStorage.setItem('language', normalizedLang);
+      }
     }
   }, []);
 
