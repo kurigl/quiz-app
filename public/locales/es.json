@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Kids in Mind presenta:",
+    "subtitleMain": "¡Pon a prueba tus conocimientos",
+    "subtitleSub": "con 10 preguntas aleatorias!",
+    "startButton": "Comenzar cuestionario",
+    "orientationNotice": "Para una mejor visualización, gire su dispositivo a modo horizontal."
+  },
+  "question": {
+    "of": "de",
+    "previous": "Atrás",
+    "next": "Siguiente",
+    "finish": "Finalizar"
+  },
+  "answer": {
+    "yes": "Sí",
+    "no": "No"
+  },
+  "results": {
+    "title": "¡Cuestionario completado!",
+    "points": "Puntos",
+    "showDetails": "Mostrar respuestas",
+    "hideDetails": "Ocultar respuestas",
+    "newRound": "Nueva ronda",
+    "resolution": "Respuestas",
+    "yourAnswer": "Tu respuesta:",
+    "correctAnswer": "Respuesta correcta:",
+    "moreInfo": "Aprende más sobre este tema:",
+    "learnMore": "Saber más →"
+  },
+  "error": {
+    "title": "Cuestionario no disponible",
+    "message": "Hubo un problema al cargar el cuestionario. Por favor, inténtelo de nuevo.",
+    "retry": "Intentar de nuevo"
+  }
+}

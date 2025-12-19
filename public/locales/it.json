@@ -1,0 +1,36 @@
+{
+  "app": {
+    "title": "Kids in Mind presenta:",
+    "subtitleMain": "Metti alla prova le tue conoscenze",
+    "subtitleSub": "con 10 domande a caso!",
+    "startButton": "Inizia il Quiz",
+    "orientationNotice": "Per una visualizzazione ottimale, ruota il dispositivo in orizzontale."
+  },
+  "question": {
+    "of": "di",
+    "previous": "Indietro",
+    "next": "Avanti",
+    "finish": "Fine"
+  },
+  "answer": {
+    "yes": "Sì",
+    "no": "No"
+  },
+  "results": {
+    "title": "Quiz completato!",
+    "points": "Punti",
+    "showDetails": "Mostra risposte",
+    "hideDetails": "Nascondi risposte",
+    "newRound": "Nuovo round",
+    "resolution": "Risposte",
+    "yourAnswer": "La tua risposta:",
+    "correctAnswer": "Risposta corretta:",
+    "moreInfo": "Scopri di più su questo argomento:",
+    "learnMore": "Per saperne di più →"
+  },
+  "error": {
+    "title": "Quiz attualmente non disponibile",
+    "message": "Si è verificato un problema durante il caricamento del quiz. Riprova.",
+    "retry": "Riprova"
+  }
+}

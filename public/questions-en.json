@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "question": "Are mental illnesses always visible or easy to recognise?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Mental illnesses are often invisible and not immediately recognisable.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "2",
+    "question": "Does approximately one in three adults in Germany suffer from a mental disorder during their lifetime?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Approximately one third of adults in Germany are affected by a mental disorder during their lifetime.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "3",
+    "question": "Are almost all people affected by a mental disorder during their lifetime?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Not all people develop mental illness – about one third do during their lifetime.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "4",
+    "question": "Can mental illness affect anyone?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Mental illness can affect people of any age, gender and background.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "5",
+    "question": "Do mental illnesses only affect people with a lack of willpower?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Mental illnesses are not a question of willpower, but medically explainable conditions.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "6",
+    "question": "Is medication the only thing that helps with mental illnesses?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "In addition to medication, psychotherapy, exercise and social support also help.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "7",
+    "question": "Do many sufferers not seek help for fear of prejudice?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Many people do not seek professional help for fear of stigmatisation.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "8",
+    "question": "Can mental illness be treated effectively?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Mental illness can usually be treated effectively, e.g. through psychotherapy.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "9",
+    "question": "Does mental illness always go away on its own?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Without treatment, mental illness does not usually go away on its own.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "10",
+    "question": "Do mental illnesses only develop in young people?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Mental illnesses can occur at any age.",
+    "category": "General",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "11",
+    "question": "Do physical illnesses only affect organs, while mental illnesses only affect the brain?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Mental and physical illnesses influence each other.",
+    "category": "Mental vs. Physical Illness",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "12",
+    "question": "Can mental illnesses also manifest themselves physically?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Mental stress can cause physical symptoms such as pain or exhaustion.",
+    "category": "Mental vs. Physical Illness",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "13",
+    "question": "Are mental illnesses always immediately visible?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Mental illnesses often go unnoticed for a long time because the symptoms are internal.",
+    "category": "Mental vs. Physical Illness",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "14",
+    "question": "Can both mental and physical illnesses be successfully treated?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Both types of illness can be treated with therapy, medication or a combination of both.",
+    "category": "Mental vs. Physical Illness",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "15",
+    "question": "Do mental illnesses disappear automatically without treatment?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Treatment is usually necessary for long-term recovery.",
+    "category": "Mental vs. Physical Illness",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "16",
+    "question": "Does self-care mean taking measures that promote one's own well-being?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Self-care means actively doing something for one's own physical and mental well-being.",
+    "category": "Self-care",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "17",
+    "question": "Does self-care mean ignoring problems in order to avoid stress?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Self-care does not mean suppressing problems, but dealing with them consciously.",
+    "category": "Self-care",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "18",
+    "question": "Is self-care important because it strengthens mental resilience?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Self-care promotes resilience and helps to cope better with stress.",
+    "category": "Self-care",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "19",
+    "question": "Does self-care contribute to one's own health?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Self-care has a positive effect on physical and mental health.",
+    "category": "Self-care",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "20",
+    "question": "Are sufficient sleep and a healthy diet part of self-care?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Regular sleep, exercise and a healthy diet are important components of self-care.",
+    "category": "Self-care",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "21",
+    "question": "Does positive stress motivate, while negative stress overwhelms?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Eustress can motivate, while constant distress is stressful.",
+    "category": "Children of parents with mental illness",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "22",
+    "question": "Do mindfulness exercises and relaxation techniques help reduce stress?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Mindfulness and relaxation promote well-being and reduce stress.",
+    "category": "Children of parents with mental illness",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "23",
+    "question": "Does it help to suppress problems in order to reduce stress?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Suppression can reduce stress in the short term, but it does not solve problems.",
+    "category": "Children of parents with mental illness",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "24",
+    "question": "Does stress become dangerous if it persists and no recovery is possible?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Chronic stress can cause considerable damage to the body and psyche.",
+    "category": "Children of parents with mental illness",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "25",
+    "question": "Is heart palpitations a typical physical reaction to stress?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Heart palpitations, sweating or tension are typical stress reactions.",
+    "category": "Children of parents with mental illness",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "26",
+    "question": "Is a persistently depressed mood a typical main symptom of depression?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "A persistently depressed mood is a main feature of depression.",
+    "category": "Depression",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "27",
+    "question": "Can depression affect people of any age?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Depression can affect children, adolescents, adults and seniors.",
+    "category": "Depression",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "28",
+    "question": "Does depression often lead to a loss of interest?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "People with depression often lose interest in things they used to enjoy.",
+    "category": "Depression",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "29",
+    "question": "Is depression a serious but treatable mental illness?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 0,
+    "explanation": "Depression is serious, but it can be treated effectively.",
+    "category": "Depression",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "30",
+    "question": "Is depression a sign of weakness of will?",
+    "answers": ["Yes", "No"],
+    "correctIndex": 1,
+    "explanation": "Depression is not a weakness, but a serious illness.",
+    "category": "Depression",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  }
+]

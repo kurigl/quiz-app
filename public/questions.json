@@ -1,0 +1,272 @@
+[
+  {
+    "id": "1",
+    "question": "Sind psychische Krankheiten immer sichtbar oder leicht zu erkennen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Psychische Erkrankungen sind oft unsichtbar und nicht sofort erkennbar.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "2",
+    "question": "Erkrankt etwa jede*r dritte Erwachsene in Deutschland im Laufe des Lebens an einer psychischen Störung?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Etwa ein Drittel der Erwachsenen in Deutschland ist im Laufe des Lebens von einer psychischen Störung betroffen.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "3",
+    "question": "Sind fast alle Menschen im Laufe ihres Lebens von einer psychischen Störung betroffen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Nicht alle Menschen erkranken psychisch – etwa ein Drittel im Laufe des Lebens.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "4",
+    "question": "Können psychische Erkrankungen jede Person treffen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Psychische Erkrankungen können Menschen jeden Alters, Geschlechts und Hintergrunds treffen.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "5",
+    "question": "Betreffen psychische Erkrankungen nur Menschen mit mangelnder Willenskraft?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Psychische Erkrankungen sind keine Frage der Willenskraft, sondern medizinisch erklärbare Leiden.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "6",
+    "question": "Helfen nur Medikamente bei psychischen Erkrankungen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Neben Medikamenten helfen auch Psychotherapie, Bewegung und soziale Unterstützung.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "7",
+    "question": "Suchen viele Betroffene keine Hilfe aus Angst vor Vorurteilen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Aus Angst vor Stigmatisierung verzichten viele auf professionelle Hilfe.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "8",
+    "question": "Können psychische Erkrankungen gut behandelt werden?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Psychische Erkrankungen sind in der Regel gut behandelbar, z. B. durch Psychotherapie.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "9",
+    "question": "Verschwinden psychische Erkrankungen immer von selbst?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Ohne Behandlung verschwinden psychische Erkrankungen meist nicht von allein.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "10",
+    "question": "Entwickeln sich psychische Erkrankungen ausschließlich in der Jugend?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Psychische Erkrankungen können in jedem Lebensalter auftreten.",
+    "category": "Allgemein",
+    "infoLink": "hier.wird.noch.was.eingefügt.de"
+  },
+  {
+    "id": "11",
+    "question": "Betreffen körperliche Erkrankungen ausschließlich Organe, während psychische nur das Gehirn betreffen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Psychische und körperliche Erkrankungen beeinflussen sich gegenseitig.",
+    "category": "Psychisch vs. Körperlich krank",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "12",
+    "question": "Können psychische Erkrankungen sich auch körperlich bemerkbar machen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Psychische Belastungen können körperliche Symptome wie Schmerzen oder Erschöpfung verursachen.",
+    "category": "Psychisch vs. Körperlich krank",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "13",
+    "question": "Sind psychische Erkrankungen immer sofort sichtbar?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Oft bleiben psychische Erkrankungen lange unbemerkt, da die Symptome innerlich sind.",
+    "category": "Psychisch vs. Körperlich krank",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "14",
+    "question": "Können sowohl psychische als auch körperliche Erkrankungen erfolgreich behandelt werden?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Beide Krankheitsformen können durch Therapie, Medikamente oder Kombinationen behandelt werden.",
+    "category": "Psychisch vs. Körperlich krank",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "15",
+    "question": "Verschwinden psychische Erkrankungen automatisch ohne Behandlung?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Eine Behandlung ist in der Regel notwendig, um langfristig zu heilen.",
+    "category": "Psychisch vs. Körperlich krank",
+    "infoLink": "https://www.rki.de/DE/Themen/Nichtuebertragbare-Krankheiten/Psychische-Gesundheit/Psychische-Gesundheit-und-Stoerungen/psychische-gesundheit-und-psychische-stoerungen-node.html"
+  },
+  {
+    "id": "16",
+    "question": "Bedeutet Selbstfürsorge, Maßnahmen zu ergreifen, die das eigene Wohlbefinden fördern?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Selbstfürsorge bedeutet, aktiv etwas für das eigene körperliche und seelische Wohl zu tun.",
+    "category": "Selbstfürsorge",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "17",
+    "question": "Bedeutet Selbstfürsorge, Probleme zu ignorieren, um Stress zu vermeiden?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Selbstfürsorge heißt nicht, Probleme zu verdrängen, sondern bewusst mit ihnen umzugehen.",
+    "category": "Selbstfürsorge",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "18",
+    "question": "Ist Selbstfürsorge wichtig, weil sie die psychische Widerstandskraft stärkt?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Selbstfürsorge fördert die Resilienz und hilft, Stress besser zu bewältigen.",
+    "category": "Selbstfürsorge",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "19",
+    "question": "Trägt Selbstfürsorge zur eigenen Gesundheit bei?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Selbstfürsorge wirkt sich positiv auf die körperliche und psychische Gesundheit aus.",
+    "category": "Selbstfürsorge",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "20",
+    "question": "Gehört ausreichend Schlaf und gesunde Ernährung zur Selbstfürsorge?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Regelmäßiger Schlaf, Bewegung und gesunde Ernährung sind wichtige Bestandteile der Selbstfürsorge.",
+    "category": "Selbstfürsorge",
+    "infoLink": "https://www.therapie.de/psyche/info/ratgeber/lebenshilfe-artikel/psychische-gesundheit/selbstfuersorge-und-selbsthilfe/"
+  },
+  {
+    "id": "21",
+    "question": "Motiviert positiver Stress, während negativer Stress überfordert?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Eustress kann motivieren, während dauerhafter Distress belastet.",
+    "category": "Kinder psychisch erkrankter Eltern",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "22",
+    "question": "Helfen Achtsamkeitsübungen und Entspannungstechniken beim Stressabbau?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Achtsamkeit und Entspannung fördern das Wohlbefinden und senken Stress.",
+    "category": "Kinder psychisch erkrankter Eltern",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "23",
+    "question": "Hilft es, Probleme zu verdrängen, um Stress zu reduzieren?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Verdrängung kann Stress kurzfristig mindern, löst aber keine Probleme.",
+    "category": "Kinder psychisch erkrankter Eltern",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "24",
+    "question": "Wird Stress gefährlich, wenn er dauerhaft anhält und keine Erholung möglich ist?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Chronischer Stress kann Körper und Psyche erheblich schädigen.",
+    "category": "Kinder psychisch erkrankter Eltern",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "25",
+    "question": "Ist Herzklopfen eine typische körperliche Reaktion auf Stress?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Herzklopfen, Schwitzen oder Anspannung sind typische Stressreaktionen.",
+    "category": "Kinder psychisch erkrankter Eltern",
+    "infoLink": "https://www.bapk.de/kinder-psychisch-erkrankter-eltern-1.html"
+  },
+  {
+    "id": "26",
+    "question": "Ist eine anhaltend gedrückte Stimmung ein typisches Hauptsymptom einer Depression?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Eine dauerhaft niedergeschlagene Stimmung ist ein Hauptmerkmal der Depression.",
+    "category": "Depressionen",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "27",
+    "question": "Können Depressionen Menschen in jedem Alter betreffen?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Depressionen können Kinder, Jugendliche, Erwachsene und Senioren betreffen.",
+    "category": "Depressionen",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "28",
+    "question": "Führt eine Depression häufig zu Interessenverlust?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Menschen mit Depression verlieren oft das Interesse an Dingen, die ihnen früher Freude gemacht haben.",
+    "category": "Depressionen",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "29",
+    "question": "Ist eine Depression eine ernsthafte, aber behandelbare psychische Erkrankung?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 0,
+    "explanation": "Depressionen sind schwerwiegend, können aber wirksam behandelt werden.",
+    "category": "Depressionen",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  },
+  {
+    "id": "30",
+    "question": "Ist Depression ein Zeichen von Willensschwäche?",
+    "answers": ["Ja", "Nein"],
+    "correctIndex": 1,
+    "explanation": "Depression ist keine Schwäche, sondern eine ernstzunehmende Krankheit.",
+    "category": "Depressionen",
+    "infoLink": "https://www.deutsche-depressionshilfe.de/depression-infos-und-hilfe/was-ist-eine-depression"
+  }
+]
