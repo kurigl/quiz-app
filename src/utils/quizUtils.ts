@@ -106,7 +106,6 @@ export const loadQuestions = async (language: string = 'de'): Promise<Question[]
     }
     
     for (const question of questions) {
-      console.log('Validating question:', question);
       if (!question.id || !question.question || !Array.isArray(question.answers) || 
           question.answers.length !== 2 || typeof question.correctIndex !== 'number' ||
           question.correctIndex < 0 || question.correctIndex > 1 || !question.explanation ||

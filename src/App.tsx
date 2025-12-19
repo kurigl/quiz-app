@@ -10,7 +10,7 @@ import ErrorScreen from './components/ErrorScreen';
 import LanguageSwitcher from './components/LanguageSwitcher';
 
 const QuizApp: React.FC = () => {
-  const { t, language } = useI18n();
+  const { language } = useI18n();
   const [quizState, setQuizState] = useState<QuizState>(QuizState.START);
   const [allQuestions, setAllQuestions] = useState<QuestionType[]>([]);
   const [currentQuestions, setCurrentQuestions] = useState<ShuffledQuestion[]>([]);
