@@ -14,6 +14,29 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
+const SUPPORTED_LANGUAGES: Language[] = ['de', 'en', 'es', 'it'];
+const DEFAULT_LANGUAGE: Language = 'de';
+
+const getInitialLanguage = (): Language => {
+  try {
+    const savedLang = localStorage.getItem('language');
+    if (savedLang) {
+      const normalizedLang = savedLang.toLowerCase() as Language;
+      if (SUPPORTED_LANGUAGES.includes(normalizedLang)) {
+        // Update localStorage with normalized value if different
+        if (savedLang !== normalizedLang) {
+          localStorage.setItem('language', normalizedLang);
+        }
+        return normalizedLang;
+      }
+    }
+  } catch (error) {
+    // localStorage might not be available
+    console.error('Error reading language from localStorage:', error);
+  }
+  return DEFAULT_LANGUAGE;
+};
+
 const getNestedValue = (obj: any, path: string): string => {
   const keys = path.split('.');
   let result = obj;
@@ -30,7 +53,7 @@ const getNestedValue = (obj: any, path: string): string => {
 };
 
 export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [language, setLanguageState] = useState<Language>('de');
+  const [language, setLanguageState] = useState<Language>(getInitialLanguage);
   const [translations, setTranslations] = useState<Translations>({});
 
   const loadTranslations = async (lang: Language) => {
@@ -44,24 +67,11 @@ export const I18nProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     } catch (error) {
       console.error('Error loading translations:', error);
       // Fallback to German if loading fails
-      if (lang !== 'de') {
-        loadTranslations('de');
+      if (lang !== DEFAULT_LANGUAGE) {
+        loadTranslations(DEFAULT_LANGUAGE);
       }
     }
   };
-
-  useEffect(() => {
-    // Load saved language preference or default to German
-    const savedLang = localStorage.getItem('language');
-    if (savedLang) {
-      const normalizedLang = savedLang.toLowerCase() as Language;
-      if (['de', 'en', 'es', 'it'].includes(normalizedLang)) {
-        setLanguageState(normalizedLang);
-        // Update localStorage with normalized value
-        localStorage.setItem('language', normalizedLang);
-      }
-    }
-  }, []);
 
   useEffect(() => {
     loadTranslations(language);
