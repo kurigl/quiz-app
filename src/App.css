@@ -152,6 +152,7 @@ body {
   justify-content: flex-start;
   max-height: calc(100vh - 40px);
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .quiz-container:not(.question-mode) {
