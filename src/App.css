@@ -12,7 +12,7 @@
 .language-switcher {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 20px;
   z-index: 200;
 }
 
@@ -135,6 +135,7 @@ body {
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   padding: 50px;
+  padding-top: 60px; /* Feste Header-Zone für Language-Switcher */
   max-width: min(800px, calc(100vw - 40px));
   width: 100%;
   min-height: 450px;
@@ -158,6 +159,7 @@ body {
 .quiz-container:not(.question-mode) {
   background: #5555FF;
   color: #FFFF00;
+  border: 3px solid rgba(255, 255, 255, 0.4);
 }
 
 /* Start Screen */
@@ -269,6 +271,18 @@ body {
   display: flex;
   justify-content: center;
   gap: 8px;
+  /* Mobile: absolut positioniert, vertikal mittig zur Sprachauswahl */
+  position: absolute;
+  top: 19px;
+  left: 12px;
+}
+@media (min-width: 769px) {
+  .progress-dots {
+    top: 25px;
+    left: 25px;
+    margin: 0;
+    transform: none;
+  }
 }
 
 .progress-dot {
@@ -717,7 +731,7 @@ body {
   }
 
   .progress-dots {
-    top: 10px;
+    top: 41px;
     gap: 6px;
   }
 
@@ -781,6 +795,27 @@ body {
 
   .error-screen {
     padding: 20px;
+  }
+
+  /* Mobile: Navigation unter dem Lösungskasten */
+  .question-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .question-footer .yes-no-buttons {
+    order: 1;
+  }
+
+  .question-footer .correct-answer-info,
+  .question-footer .explanation-success {
+    order: 2;
+    margin-bottom: 0;
+  }
+
+  .question-footer .nav-controls {
+    order: 3;
+    margin-top: 6px;
   }
 }
 
@@ -928,7 +963,7 @@ body {
   }
 
   .progress-dots {
-    top: 8px;
+    top: 15px;
     gap: 4px;
   }
 
@@ -1169,5 +1204,77 @@ body {
 
   .yes-no-buttons {
     padding: 15px 0;
+  }
+}
+
+/* ================================
+   DESKTOP: Navigation Pfeile + Feedback-Box
+   ================================ */
+@media (min-width: 1024px) {
+  /* Grid-Layout für question-footer: Pfeile links/rechts, Feedback mittig */
+  .question-footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 15px 20px;
+    width: 100%;
+  }
+
+  /* Yes/No Buttons spannen alle Spalten */
+  .question-footer .yes-no-buttons {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  /* nav-controls wird "aufgelöst", Kinder werden Grid-Items */
+  .question-footer .nav-controls {
+    display: contents;
+  }
+
+  /* Zurück-Pfeil links */
+  .question-footer .nav-controls .nav-button:first-child {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  /* Weiter-Pfeil rechts */
+  .question-footer .nav-controls .nav-button:last-child {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  /* Feedback-Box mittig zwischen den Pfeilen */
+  .question-footer .correct-answer-info,
+  .question-footer .explanation-success {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    max-width: 100%;
+    justify-self: center;
+  }
+
+  /* ================================
+     DESKTOP: Einheitliche Header-Zone
+     ================================ */
+  
+  /* Language-Switcher: einheitlich absolut positioniert über alle Screens */
+  .language-switcher {
+    top: 18px;
+    right: 25px;
+  }
+
+  /* Progress-Dots: absolut positioniert, gleiche Höhe wie Language-Switcher */
+  .quiz-container.question-mode .progress-dots {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    margin: 0;
+    transform: none;
+  }
+
+  /* Question-Header: layout-neutral, beeinflusst keinen vertikalen Flow */
+  .question-header {
+    display: contents;
   }
 }
